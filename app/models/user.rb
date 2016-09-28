@@ -15,4 +15,11 @@ class User < ApplicationRecord
     user = self.find_by(provider: auth_hash[:provider], uid: auth_hash[:uid])
     user || create_from_oauth(auth_hash)
   end
+
+  def top_artists(client)
+    tracks = client.top_artists(time_range: 'long_term').collect {|artist| artist.name}
+    tracks << client.top_artists(time_range: 'medium_term').collect {|artist| artist.name}
+    tracks << client.top_artists(time_range: 'short_term').collect {|artist| artist.name}
+    tracks.flatten.uniq
+  end
 end

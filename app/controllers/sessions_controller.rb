@@ -4,12 +4,14 @@ class SessionsController < ApplicationController
     persistable_auth = persistable_auth_hash(auth)
     user = User.from_oauth(persistable_auth)
     session[:user_id] = user.id
-    client = SpotifyClient.for(user)
+    
 
     redirect_to user_path(user), notice: "Signed in"
   end
 
   def delete
+    session[:user_id] = nil
+    redirect_to root_url, notice: "Logged out"
   end
 
   def persistable_auth_hash(auth)

@@ -8,5 +8,4 @@ class SpotifyClient
     # eval is evil
     RSpotify::User.new(eval(user.rspotify_hash))
   end
-
 end
