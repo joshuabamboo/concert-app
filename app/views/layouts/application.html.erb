@@ -9,6 +9,14 @@
   </head>
 
   <body>
+    <!-- MESSAGES -->
+    <% if flash[:notice] %>
+      <div class="alert alert-success">
+        <strong><%= flash[:notice] %></strong>
+      </div>
+    <% end %>
+    <!-- END MESSAGES -->
+
     <%= yield %>
   </body>
 </html>
