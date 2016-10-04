@@ -3,6 +3,27 @@ Your top artists on Spotify:
   <li><%= artist %></li> 
 <% end %>
 
+Artist's you follow:
+<% @saved_artists.each do |artist| %>
+  <li><%= artist %></li> 
+<% end %>
+
+Artist's whose albums you follow:
+<% @album_artists.each do |artist| %>
+  <li><%= artist %></li> 
+<% end %>
+
+Artist's whose tracks you follow:
+<% @track_artists.each do |artist| %>
+  <li><%= artist %></li> 
+<% end %>
+
+Artist's from your playlists:
+<% @playlist_artists.each do |artist| %>
+  <li><%= artist %></li> 
+<% end %>
+
+
 <% @events.each do |artist| %>
   <li><%= artist %></li> 
 <% end %>

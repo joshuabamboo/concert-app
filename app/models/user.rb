@@ -17,9 +17,39 @@ class User < ApplicationRecord
   end
 
   def top_artists(client)
-    tracks = client.top_artists(time_range: 'long_term').collect {|artist| artist.name}
-    tracks << client.top_artists(time_range: 'medium_term').collect {|artist| artist.name}
-    tracks << client.top_artists(time_range: 'short_term').collect {|artist| artist.name}
-    tracks.flatten.uniq
+    artists = client.top_artists(time_range: 'long_term').collect {|artist| artist.name}
+    artists << client.top_artists(time_range: 'medium_term').collect {|artist| artist.name}
+    artists << client.top_artists(time_range: 'short_term').collect {|artist| artist.name}
+    artists.flatten.uniq
+  end
+
+  def saved_artists(client)
+    artists = client.following(type: 'artist', limit: 50)
+    artists.collect {|artist| artist.name}
+  end
+
+  def saved_albums_artists(client)
+    albums = client.saved_albums 
+    albums.collect do |album|
+      album.artists.collect {|artist| artist.name}
+    end.flatten
+  end
+
+  def saved_tracks_artists(client)
+    tracks = client.saved_tracks(limit: 50) 
+    tracks.collect do |track|
+      track.artists.collect {|artist| artist.name}
+    end.flatten
+  end
+
+  def playlists(client)
+    playlists = client.playlists(limit: 50)
+    playlists.collect do |playlist|
+      playlist.tracks.collect do |track|
+        track.artists.collect do |artist|
+          artist.name
+        end
+      end
+    end.flatten
   end
 end

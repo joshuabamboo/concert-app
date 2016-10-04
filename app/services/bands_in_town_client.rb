@@ -16,6 +16,7 @@ class BandsInTownClient
       events = JSON.parse(response)
       events.collect {|event| event["title"]}
     rescue => e
+      # ignoring artists that do not return a result from bandsintown for now
       []
     end
   end
