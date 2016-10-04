@@ -13,3 +13,6 @@ module ConcertApp
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+Dotenv::Railtie.load
+RSpotify::authenticate(ENV['SPOTIFY_ID'], ENV['SPOTIFY_SECRET'])
+
