@@ -1,11 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+(Heroku)[https://evening-beach-83776.herokuapp.com/]
+
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.2.3 / Rails 5.0
 
 * System dependencies
 
@@ -20,5 +20,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
