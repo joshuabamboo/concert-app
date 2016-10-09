@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+  has_many :user_artists
+  has_many :artists, through: :user_artists
+
   def self.create_from_oauth(auth_hash)
     self.create(
       provider: auth_hash[:provider],
