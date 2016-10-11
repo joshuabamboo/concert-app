@@ -22,4 +22,7 @@
 en:
   hello: "Hello world"
 
-
+en:
+  user_mailer:
+    welcome_email:
+      subject: Welcome
