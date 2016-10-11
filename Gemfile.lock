@@ -167,6 +167,8 @@ GEM
       connection_pool (~> 2.2, >= 2.2.0)
       rack-protection (~> 1.5)
       redis (~> 3.2, >= 3.2.1)
+    sidekiq-status (0.6.0)
+      sidekiq (>= 2.7)
     slop (3.6.0)
     spring (1.7.2)
     spring-watcher-listen (2.0.0)
@@ -219,6 +221,7 @@ DEPENDENCIES
   rspotify
   sass-rails (~> 5.0)
   sidekiq
+  sidekiq-status
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
