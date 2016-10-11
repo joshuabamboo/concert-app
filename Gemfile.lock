@@ -215,6 +215,7 @@ DEPENDENCIES
   pry
   puma (~> 3.0)
   rails (~> 5.0.0)
+  redis (~> 3.2)
   rspotify
   sass-rails (~> 5.0)
   sidekiq

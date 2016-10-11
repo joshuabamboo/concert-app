@@ -1,5 +1,10 @@
-<h1>User#welcome_email</h1>
+<h1>Yo</h1>
+
 
 <p>
-  <%= @greeting %>, find me in app/views/user_mailer/welcome_email.html.erb
+  We search <%= @user.artists.size %> artists, and found <%= @events.flatten.size %> events that may interest you.
+</p>
+
+<p>
+  <%= @events %>
 </p>

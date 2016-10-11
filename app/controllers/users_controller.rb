@@ -3,7 +3,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    user = User.find(params[:id])
-    GrabSpotifyArtistsJob.perform_later(user)
+    @user = User.find(params[:id])
+    GrabSpotifyArtistsJob.perform_later(@user)
   end
 end
