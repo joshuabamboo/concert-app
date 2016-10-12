@@ -26,8 +26,12 @@ class User < ApplicationRecord
   end
 
   def saved_artists(client)
-    artists = client.following(type: 'artist', limit: 50)
-    artists.collect {|artist| artist.name}
+    begin
+      artists = client.following(type: 'artist', limit: 50)
+      artists.collect {|artist| artist.name}
+    rescue => e
+      []
+    end
   end
 
   def saved_albums_artists(client)

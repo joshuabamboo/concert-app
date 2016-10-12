@@ -5,14 +5,12 @@
   Let's go watch some shit.
 </h4>
 
-<ul style="list-style-type:none">
   <% @events.each do |artist_events|%>
     <% artist_events.each do |event| %>
-      <li>
+      <p>
         <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
-      </li>
+      </p>
     <% end %>
   <% end %>
-</ul>
 
 

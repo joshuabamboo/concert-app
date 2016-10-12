@@ -28,12 +28,13 @@ class BandsInTownClient
   end
 
   def self.asciify(artist)
-    artist.split("").each_with_index do |letter, index|
+    artist_non_frozen = artist.dup 
+    artist_non_frozen.split("").each_with_index do |letter, index|
       if ascii = ASCII_MAP[letter]
-        artist[index] = ascii
+        artist_non_frozen[index] = ascii
       end
     end
-    artist
+    artist_non_frozen
   end
 end
 
