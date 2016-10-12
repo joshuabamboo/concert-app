@@ -14,7 +14,13 @@ class BandsInTownClient
     begin
       response = RestClient.get(url)
       events = JSON.parse(response)
-      events.collect {|event| event["title"]}
+      events.collect do |event| 
+          {
+            title: event["title"],
+            date: event["formatted_datetime"],
+            ticket_url: event["ticket_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,"")
+          }
+      end
     rescue => e
       # ignoring artists that do not return a result from bandsintown for now
       []
