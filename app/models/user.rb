@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :user_artists
+  has_many :user_artists, dependent: :destroy
   has_many :artists, through: :user_artists
 
   def self.create_from_oauth(auth_hash)
@@ -14,6 +14,7 @@ class User < ApplicationRecord
   end
 
   def self.from_oauth(auth_hash)
+    binding.pry
     user = self.find_by(provider: auth_hash[:provider], uid: auth_hash[:uid])
     user || create_from_oauth(auth_hash)
   end
