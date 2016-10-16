@@ -1,9 +1,6 @@
 class GrabSpotifyArtistsJob < ApplicationJob
   queue_as :default
   
-  include Sidekiq::Worker
-  sidekiq_options retry: false
-
   def perform(user)
     client = SpotifyClient.for(user)
     @top_artists = user.top_artists(client).uniq
