@@ -1,6 +1,6 @@
 class GrabSpotifyArtistsJob < ApplicationJob
   queue_as :default
-  
+
   def perform(user)
     client = SpotifyClient.for(user)
     @top_artists = user.top_artists(client).uniq
