@@ -93,11 +93,4 @@ Rails.application.configure do
     password:             ENV['PW'],
     authentication:       'plain',
     enable_starttls_auto: true  }
-    
-  config.action_mailer.default_options = {
-    from: "joshuaowens011@gmail.com" 
-  }
-
-  config.action_mailer.default_url_options = { :host => 'evening-beach-83776.herokuapp.com' }
-end
 
