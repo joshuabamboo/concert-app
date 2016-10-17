@@ -93,4 +93,5 @@ Rails.application.configure do
     password:             ENV['PW'],
     authentication:       'plain',
     enable_starttls_auto: true  }
+end
 
