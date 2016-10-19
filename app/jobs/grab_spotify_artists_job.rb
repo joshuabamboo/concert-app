@@ -13,7 +13,9 @@ class GrabSpotifyArtistsJob < ApplicationJob
       artist = Artist.find_or_create_by(name: artist_name)
       user.artists << artist if !user.artists.include? artist
     end
-    events = all_artists.collect {|artist| BandsInTownClient.events_for(artist)}.delete_if { |e| e.empty?  }
-    UserMailer.welcome_email(user, events).deliver_now
+    events = all_artists.collect {|artist| BandsInTownClient.events_for(artist)}.delete_if { |e| e.empty?  }.flatten
+    user.events = events
+    user.save
+    UserMailer.welcome_email(user).deliver_now
   end
 end

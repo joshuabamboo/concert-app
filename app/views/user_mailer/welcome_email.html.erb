@@ -5,12 +5,25 @@
   Let's go watch some shit.
 </h4>
 
-  <% @events.each do |artist_events|%>
-    <% artist_events.each do |event| %>
-      <p>
-        <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
-      </p>
-    <% end %>
-  <% end %>
+<h5>Events this week:</h5>
+<% @this_weeks_events.each do |event|%>
+    <p>
+      <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
+    </p>
+<% end %>
+
+<h5>More events:</h5>
+<% @remaining_events.each do |event|%>
+    <p>
+      <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
+    </p>
+<% end %>
+
+<h5>All events:</h5>
+<% @all_events.each do |event|%>
+    <p>
+      <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
+    </p>
+<% end %>
 
 

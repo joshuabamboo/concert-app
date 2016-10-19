@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   has_many :user_artists, dependent: :destroy
   has_many :artists, through: :user_artists
+  serialize :events
 
   def self.create_from_oauth(auth_hash)
     self.create(
@@ -57,5 +58,27 @@ class User < ApplicationRecord
         end
       end
     end.flatten
+  end
+
+  def sort_events
+    self.events.sort_by! do |event|
+      event[:date].to_date
+    end
+  end
+  def upcoming_events
+    next_week = Time.now.next_week
+
+    sort_events.collect do |event|
+      event if event[:date] <= next_week
+    end.delete_if {|e| e == nil}
+
+  end
+
+  def remaining_events
+    next_week = Time.now.next_week
+
+    sort_events.collect do |event|
+      event if event[:date] > next_week
+    end.delete_if {|e| e == nil}
   end
 end

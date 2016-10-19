@@ -5,10 +5,11 @@ class UserMailer < ApplicationMailer
   #
   #   en.user_mailer.welcome_email.subject
   #
-  def welcome_email(user, events)
+  def welcome_email(user)
     @user = user
-    @events = events
-
+    @this_weeks_events = user.upcoming_events
+    @remaining_events = user.remaining_events
+    @all_events = user.sort_events
     mail to: @user.email
   end
 end
