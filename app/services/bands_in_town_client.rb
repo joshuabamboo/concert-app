@@ -27,8 +27,6 @@ class BandsInTownClient
       if (!((tries -= 1).zero?) && e.message == "400 Bad Request")
         sleep(60) 
         retry
-      elsif e.message == "400 Bad Request"
-        ["400"]
       else
         []
       end
