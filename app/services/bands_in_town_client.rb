@@ -4,26 +4,34 @@ require 'json'
 class BandsInTownClient
   ASCII_MAP = {
     "Ø" => "O",
+    "Ü" => "U",
     "é" => "e"
   }
 
   def self.events_for(artist)
     artist = asciify(artist) if !artist.ascii_only?
-    formatted_artist = artist.gsub(" ", "%20")
-    url = "http://api.bandsintown.com/artists/#{formatted_artist}/events/search.json?api_version=2.0&app_id=spotify_concerts&location=New+York,NY&radius=10"
+    url_encoded_artist = artist.gsub(" ", "%20").gsub("/", "%252F")
+    url = "http://api.bandsintown.com/artists/#{url_encoded_artist}/events/search.json?api_version=2.0&app_id=spotify_concerts&location=New+York,NY&radius=10"
     begin
+      tries ||= 2
       response = RestClient.get(url)
       events = JSON.parse(response)
       events.collect do |event| 
           {
             title: event["title"],
             date: event["formatted_datetime"],
-            ticket_url: event["ticket_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,"")
+            ticket_url: (event["ticket_url"] ? event["ticket_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,"") : event["facebook_rsvp_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,""))
           }
       end
     rescue => e
-      # ignoring artists that do not return a result from bandsintown for now
-      []
+      if (!((tries -= 1).zero?) && e.message == "400 Bad Request")
+        sleep(60) 
+        retry
+      elsif e.message == "400 Bad Request"
+        ["400"]
+      else
+        []
+      end
     end
   end
 

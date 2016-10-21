@@ -19,11 +19,4 @@
     </p>
 <% end %>
 
-<h5>All events:</h5>
-<% @all_events.each do |event|%>
-    <p>
-      <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
-    </p>
-<% end %>
-
 

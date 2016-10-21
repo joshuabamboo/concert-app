@@ -9,7 +9,6 @@ class UserMailer < ApplicationMailer
     @user = user
     @this_weeks_events = user.upcoming_events
     @remaining_events = user.remaining_events
-    @all_events = user.sort_events
     mail to: @user.email
   end
 end
