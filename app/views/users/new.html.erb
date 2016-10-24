@@ -1,1 +1,2 @@
-<%= link_to 'Sign in with Spotify', '/auth/spotify' %>
+
+<%= logged_in? ? link_to('logout', '/logout') : link_to('Sign in with Spotify', '/auth/spotify') %>
