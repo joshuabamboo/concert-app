@@ -66,7 +66,7 @@ class User < ApplicationRecord
     end
   end
   def upcoming_events
-    next_week = Time.now.next_week
+    next_week = 7.days.from_now
 
     sort_events.collect do |event|
       event if event[:date] <= next_week
@@ -75,7 +75,7 @@ class User < ApplicationRecord
   end
 
   def remaining_events
-    next_week = Time.now.next_week
+    next_week = 7.days.from_now
 
     sort_events.collect do |event|
       event if event[:date] > next_week
