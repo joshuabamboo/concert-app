@@ -1,5 +1,22 @@
-Yo, <%=@user.name%>. I'm sending you an email.
+<% if @artists.empty? %>
+  Welcome, <%=current_user.name%>. Sit back while we analyze your Spotify listening history, and find all the upcoming concerts in your area from your favorite artists. Confirm or update your email address below.
 
-<!-- Right now I'm grabbing all the artists associated with your Spotify account. You should receive an email shortly with a list of events in your area that may interest you.
-
-Let's go watch some shit. -->
+  <%= form_for(current_user) do |f| %>
+    <%= f.text_field :email %>
+    <%= f.submit "Send me the shows", class: "btn btn-primary" %>
+  <% end %>
+<% else %>
+  <%= @artists.size %> Artists. <%= @events.size %> Events.
+  <table>
+    <tr>
+      <th>Event</th>
+      <th>Time</th>
+    </tr>
+    <% @events.each do |event| %>
+      <tr>
+        <td><%= link_to(event[:title], event[:ticket_url], target: :blank) %></td>
+        <td><%= event[:date] %></td>
+      </tr>
+    <% end %>
+  </table>
+<% end %>
