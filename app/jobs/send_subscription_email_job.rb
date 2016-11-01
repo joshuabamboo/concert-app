@@ -1,12 +1,12 @@
 class SendSubscriptionEmailJob < ApplicationJob
   queue_as :default
 
-  def perform(*args)
-    # update spotify artists
-    UpdateSpotifyArtistsJob.perform_later()
+  def perform(user)
+    # update spotify artists (current solution grabs events too)
+    UpdateSpotifyArtistsJob.perform_later(user)
     # grab events
-    GrabArtistsEventsJob.perform_later(artists, user)
+    # GrabArtistsEventsJob.perform_later(artists, user)
     # send email
-    UserMailer.welcome_email(user).deliver_now
+    UserMailer.welcome_email(user).deliver_now #need to generate another mailer for the subscription email
   end
 end
