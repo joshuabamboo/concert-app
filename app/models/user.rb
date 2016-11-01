@@ -60,6 +60,17 @@ class User < ApplicationRecord
     end.flatten
   end
 
+
+  def all_spotify_artists(client)
+    top_artists = user.top_artists(client).uniq
+    saved_artists = user.saved_artists(client).uniq
+    album_artists = user.saved_albums_artists(client).uniq
+    track_artists = user.saved_tracks_artists(client).uniq
+    playlist_artists = user.playlists(client).uniq
+    all_artists = [top_artists, saved_artists, album_artists, track_artists, playlist_artists].flatten.uniq
+  end
+
+
   def sort_events
     self.events.sort_by! do |event|
       event[:date].to_date
