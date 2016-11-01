@@ -7,8 +7,7 @@ class GrabSpotifyArtistsJob < ApplicationJob
       artist = Artist.find_or_create_by(name: artist_name)
       associate_artists_to(user, artist)
     end
-    GrabArtistsEventsJob.perform_later(artists, user)
-    # UserMailer.welcome_email(user).deliver_now
+    GrabArtistsEventsJob.perform_later(artists, user) #is there any scenario where we want artists but no events?
   end
 
 

@@ -14,3 +14,19 @@
  3. send welcome email
  4. send subscription email
  5. grab events
+
+
+ First login:
+ 153
+
+ Second login:
+ 0
+
+ If confirmation:
+ weekly-254
+
+ Within another job should you call `perform_later` or `perform_now`?
+ ---
+
+ CONFIRMATION
+ if user.subscribed? email_weekly

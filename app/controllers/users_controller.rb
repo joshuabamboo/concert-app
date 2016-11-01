@@ -7,7 +7,7 @@ class UsersController < ApplicationController
 
   def show
     if current_user.artists.empty?
-      GrabSpotifyArtistsJob.perform_later(current_user)
+      SendWelcomeEmailJob.perform_later(user)
     end
     @artists = current_user.artists
     @events = current_user.sort_events
