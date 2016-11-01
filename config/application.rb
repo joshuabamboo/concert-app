@@ -4,7 +4,7 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(*Rails.groups)
+ Bundler.require(*Rails.groups)
 
 module ConcertApp
   class Application < Rails::Application
@@ -14,6 +14,6 @@ module ConcertApp
     config.active_job.queue_adapter = :sidekiq
   end
 end
-Dotenv::Railtie.load
-RSpotify::authenticate(ENV['SPOTIFY_ID'], ENV['SPOTIFY_SECRET'])
+ Dotenv::Railtie.load
+# RSpotify::authenticate(ENV['SPOTIFY_ID'], ENV['SPOTIFY_SECRET'])
 
