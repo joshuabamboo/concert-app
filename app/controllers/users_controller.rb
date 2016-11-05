@@ -7,10 +7,10 @@ class UsersController < ApplicationController
 
   def show
     if current_user.artists.empty?
-      SendWelcomeEmailJob.perform_later(user)
+      SendWelcomeEmailJob.perform_later(current_user)
     end
     @artists = current_user.artists
-    @events = current_user.sort_events
+    current_user.events ? @events = current_user.sort_events : @events = nil #this is ugly
   end
 
   def update

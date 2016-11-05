@@ -9,7 +9,7 @@ class UpdateSpotifyArtistsJob < ApplicationJob
     
     # Slightly better
     # Use existing job. Still hits api too much
-    GrabSpotifyArtistsJob.perform_later(user) #This also grabs events
+    GrabSpotifyArtistsJob.perform_now(user) #This also grabs events
 
     # Even Better solution
     # does api give access to recently updated playlists?

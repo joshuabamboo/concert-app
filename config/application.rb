@@ -15,5 +15,5 @@ module ConcertApp
   end
 end
  Dotenv::Railtie.load
-# RSpotify::authenticate(ENV['SPOTIFY_ID'], ENV['SPOTIFY_SECRET'])
+RSpotify::authenticate(ENV['SPOTIFY_ID'], ENV['SPOTIFY_SECRET'])
 

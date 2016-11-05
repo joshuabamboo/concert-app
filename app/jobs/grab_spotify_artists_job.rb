@@ -7,13 +7,12 @@ class GrabSpotifyArtistsJob < ApplicationJob
       artist = Artist.find_or_create_by(name: artist_name)
       associate_artists_to(user, artist)
     end
-    GrabArtistsEventsJob.perform_later(artists, user) #is there any scenario where we want artists but no events?
+    GrabArtistsEventsJob.perform_now(artists, user) #is there any scenario where we want artists but no events?
   end
 
 
   def associate_artists_to(user, artist)
       user.artists << artist if !user.artists.include? artist
-    end
   end
 
   private

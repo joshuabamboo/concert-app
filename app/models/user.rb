@@ -62,11 +62,11 @@ class User < ApplicationRecord
 
 
   def all_spotify_artists(client)
-    top_artists = user.top_artists(client).uniq
-    saved_artists = user.saved_artists(client).uniq
-    album_artists = user.saved_albums_artists(client).uniq
-    track_artists = user.saved_tracks_artists(client).uniq
-    playlist_artists = user.playlists(client).uniq
+    top_artists = self.top_artists(client).uniq
+    saved_artists = self.saved_artists(client).uniq
+    album_artists = self.saved_albums_artists(client).uniq
+    track_artists = self.saved_tracks_artists(client).uniq
+    playlist_artists = self.playlists(client).uniq
     all_artists = [top_artists, saved_artists, album_artists, track_artists, playlist_artists].flatten.uniq
   end
 
