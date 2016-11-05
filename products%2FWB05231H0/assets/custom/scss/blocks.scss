@@ -1,0 +1,56 @@
+
+
+@mixin block-margins {  padding: 130px 0 130px 0;  }
+@mixin block-ins-margins {  padding: 100px 0 100px 0;  }
+@mixin infoblock-margins {  margin: 0 0 24px 0;  }
+@mixin block-null-margins {  margin: 0 0 0 0;  }
+
+.e-block {  @include block-margins;  }
+.e-block-ins {@include block-ins-margins;}
+.e-block-null {@include block-null-margins;}
+
+
+.e-block-centered {  text-align: center;  }
+
+.infoblock {
+  @include infoblock-margins;
+  hr {
+    margin-top: 18px;
+    border-top: 3px solid $color07;
+  }
+  a {  color: $color10;
+    &:hover {
+      text-decoration: none;
+      color: $hovercolor;
+    }
+  }
+  .morelink {
+    font-family: $font-accident-one-bold;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 22px;
+    a {
+      color: $color04;
+      text-decoration: none;
+      i {
+        margin-left: 5px;
+        &::before {color: $color04;}
+      }
+      &:hover {color: $hovercolor; text-decoration: none;}
+      &:hover i::before {color: $hovercolor;}
+    }
+  }
+}
+.dark .infoblock {
+  a {
+    color: $color02;
+    font-weight: 600;
+    i::before {color: $color01;}
+    &:hover {
+      color: $hovercolor;
+    }
+  }
+  .post-meta {color: $color01;}
+}

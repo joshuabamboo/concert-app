@@ -1,0 +1,153 @@
+.fontcolor-regular, .fontcolor-regular a {
+  color: #303030 !important; }
+
+.fontcolor-invert, .fontcolor-invert a {
+  color: #f2f2f2 !important; }
+
+.fontcolor-medium, .fontcolor-medium a {
+  color: #737373 !important; }
+
+.fontcolor-medium-light {
+  color: #8e8e8e !important; }
+  .fontcolor-medium-light a {
+    color: #8e8e8e !important; }
+    .fontcolor-medium-light a:hover, .fontcolor-medium-light a:focus {
+      color: #E84855 !important; }
+
+.hovercolor, .hovercolor a {
+  color: #E84855 !important; }
+
+.accent-color, .accent-color a {
+  color: #43a5e6 !important; }
+
+.accent-color a:hover {
+  color: #E84855 !important; }
+
+.color00 {
+  color: #fff !important; }
+
+.color01 {
+  color: #f2f2f2 !important; }
+
+.color02 {
+  color: #dadada !important; }
+
+.color03 {
+  color: #c1c1c1 !important; }
+
+.color04 {
+  color: #a7a7a7 !important; }
+
+.color05 {
+  color: #8e8e8e !important; }
+
+.color06 {
+  color: #737373 !important; }
+
+.color07 {
+  color: #5d5d5d !important; }
+
+.color08 {
+  color: #4a4a4a !important; }
+
+.color09 {
+  color: #404040 !important; }
+
+.color10 {
+  color: #303030 !important; }
+
+.color11 {
+  color: #252525 !important; }
+
+.color12 {
+  color: #1b1b1b !important; }
+
+.color13 {
+  color: #101010 !important; }
+
+.bg-color00 {
+  background-color: #fff !important; }
+
+.bg-color01 {
+  background-color: #f2f2f2 !important; }
+
+.bg-color02 {
+  background-color: #dadada !important; }
+
+.bg-color03 {
+  background-color: #c1c1c1 !important; }
+
+.bg-color04 {
+  background-color: #a7a7a7 !important; }
+
+.bg-color05 {
+  background-color: #8e8e8e !important; }
+
+.bg-color06 {
+  background-color: #737373 !important; }
+
+.bg-color07 {
+  background-color: #5d5d5d !important; }
+
+.bg-color08 {
+  background-color: #4a4a4a !important; }
+
+.bg-color09 {
+  background-color: #404040 !important; }
+
+.bg-color10 {
+  background-color: #303030 !important; }
+
+.bg-color11 {
+  background-color: #252525 !important; }
+
+.bg-color12 {
+  background-color: #1b1b1b !important; }
+
+.bg-color13 {
+  background-color: #101010 !important; }
+
+.bg-red {
+  background-color: #e74c3c !important; }
+
+.bg-orange {
+  background-color: #e67e22 !important; }
+
+.bg-green {
+  background-color: #1abc9c !important; }
+
+.bg-blue {
+  background-color: #3498db !important; }
+
+.bg-darkblue {
+  background-color: #1c4a6c !important; }
+
+.bg-cyan {
+  background-color: #9b59b6 !important; }
+
+.bg-yellow {
+  background-color: #d9a81d !important; }
+
+.bg-l-grey {
+  background-color: #f2f2f2 !important; }
+
+.bg-grey {
+  background-color: #999 !important; }
+
+.bg-skin {
+  background-color: #fff !important; }
+
+.e-bg-light-texture {
+  background: url("../images/backgrounds/skin_side_up.png"); }
+
+.e-bg-texture-02 {
+  background: url("../images/rs-images/02.jpg");
+  background-size: cover; }
+
+.e-bg-texture-03 {
+  background: url("../images/backgrounds/tweed.png"); }
+
+/* Clearfix */
+/* Block Background Classes */
+
+/*# sourceMappingURL=colors.css.map */

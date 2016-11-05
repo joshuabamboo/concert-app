@@ -1,0 +1,58 @@
+
+
+
+/* Headings Fonts variables */
+$font-accident-one-bold:          'Montserrat', sans-serif;
+$font-accident-one-normal:        'Montserrat', sans-serif;
+$font-accident-two:               'Georgia',    serif;
+$font-regular:                    'Raleway', sans-serif;
+
+/* Heading font one */
+.font-accident-one-bold           {  font-family: $font-accident-one-bold;  font-weight: 700;  font-style: normal;  }
+.font-accident-one-normal         {  font-family: $font-accident-one-normal;  font-weight: 400;  font-style: normal;  }
+
+/* Heading font two */
+.font-accident-two-normal         {  font-family: $font-accident-two;  font-style: normal;  }
+.font-accident-two-oblique        {  font-family: $font-accident-two;  font-style: oblique;  }
+.font-accident-two-bold           {  font-family: $font-accident-two;  font-weight: bold ;  }
+.font-accident-two-bold-italic    {  font-family: $font-accident-two;  font-weight: bold;  font-style: oblique;  }
+
+/* Regular font */
+.font-regular-light               {  font-family: $font-regular;  font-weight: 400;  font-style: normal;  }
+.font-regular-normal              {  font-family: $font-regular;  font-weight: 400;  font-style: normal;  }
+.font-regular-bold                {  font-family: $font-regular;  font-weight: 700;  font-style: normal;  }
+
+/* Headings */
+h1 {}
+h2 {  font-size: 36px;  }
+h3 {}
+h4 {letter-spacing: 3px;}
+h5 {letter-spacing: 3px;}
+h6 {
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+h4, h5, h6 {
+  a {
+    color: $hovercolor;
+    &:hover, &:focus {color: lighten($hovercolor, 5%);}
+    transition: all 0.25s ease 0s;
+    -webkit-transition-: all 0.25s ease 0s;
+    -webkit-transition: all 0.25s ease 0s;
+    -moz-transition: all 0.25s ease 0s;
+    -o-transition: all 0.25s ease 0s;
+  }
+}
+.title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(167, 167, 167, 0.4);
+  display: initial;
+}
+
+
+
+/* Paragraphs */
+.small {font-size: 12px;}
+.extrasmall {font-size: 10px;}
+.superheading {  font-size: 48px;  }
+

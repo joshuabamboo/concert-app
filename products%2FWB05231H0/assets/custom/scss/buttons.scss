@@ -1,0 +1,122 @@
+
+
+/* Button Sizes */
+.btn-lg {font-size: 15px;}
+.btn-default {font-size: 13px;}
+.btn-sm {font-size: 12px;}
+.btn-xs {font-size: 11px; padding: 3px 9px;}
+
+/* Button Types */
+.btn-darker,
+.btn-blk,
+.btn-gr,
+.btn-lgr,
+.btn-lgr-str,
+.btn-grey-str,
+.btn-light,
+.btn-wh,
+.btn-wh-str,
+.btn-rd {
+  letter-spacing: 0;
+  border-radius: 24px;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+}
+.btn-darker {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  border: 1px solid $color08;
+  background: $color08;
+  margin-bottom: 12px;
+  color: $color01 !important;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;  }
+}
+.btn-blk {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  border: 1px solid #353535;
+  background: #353535;
+  margin-bottom: 12px;
+  color: $color01 !important;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;  }
+  &:focus {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;  }
+}
+.btn-gr {
+  font-family: $font-accident-one-normal;
+  //font-style: oblique;
+  border: 1px solid #505050;
+  color: $color01 !important;
+  background: #505050;
+  margin-bottom: 12px;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;  }
+}
+.btn-lgr {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  border: 1px solid #999999;
+  background: #999999;
+  margin-bottom: 12px;
+  color: $color01 !important;
+  &:hover {  border: 1px solid $hovercolor; background: $hovercolor; color: $color01 !important;  }
+}
+.btn-lgr-str {
+  font-family: $font-accident-one-normal;
+  background: none !important;
+  margin-bottom: 12px;
+  border: 2px solid $color04 !important;
+  color: $color04 !important;
+  a {color: $color04 !important;}
+  &:hover {
+    background: none;
+    border: 2px solid $hovercolor !important; color: $hovercolor !important;
+  }
+}
+.btn-grey-str {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  background:  none !important;
+  margin-bottom: 12px;
+  border: 2px solid $color10;
+  color: $color10 !important;
+  &:hover {  background: none; border: 2px solid $hovercolor; color: $hovercolor !important;  }
+}
+.btn-light {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  background:  $color02;
+  margin-bottom: 12px;
+  border: 1px solid $color02;
+  color: $color08 !important;
+  &:hover {  background: $hovercolor; border: 1px solid $hovercolor; color: $color01 !important;  }
+}
+.btn-wh-str {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  background:  none;
+  margin-bottom: 12px;
+  border: 2px solid $color00 !important;
+  color: $color00 !important;
+  a {color: $color00 !important;}
+  &:hover {  background: none; border: 2px solid $hovercolor !important; color: $hovercolor !important;  }
+}
+.btn-wh {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  background:  $color00 !important;
+  margin-bottom: 12px;
+  border: 2px solid $color00 !important;
+  color: $color10 !important;
+  &:hover {  background: $hovercolor !important; border: 2px solid $hovercolor !important; color: $color01 !important;  }
+}
+.btn-rd {
+  font-family: $font-accident-one-normal;
+  font-style: oblique;
+  border: 1px solid $hovercolor;
+  color: $color01 !important;
+  background: $hovercolor;
+  margin-bottom: 12px;
+  &:hover {  border: 1px solid #ec1717; background: #ec1717; color: $color01 !important;  }
+}
