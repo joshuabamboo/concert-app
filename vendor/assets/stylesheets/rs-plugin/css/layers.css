@@ -4439,7 +4439,7 @@ tp-caption.Team-Thumb,
     cursor: pointer
 }
 
-/* media queries */
+/* media queries 
 
 @media only screen and (max-width: 960px) {} @media only screen and (max-width: 768px) {} .tp-caption.LandingPage-Title,
 .LandingPage-Title {
@@ -4913,4 +4913,4 @@ tp-caption.Team-Thumb,
     border-width: 0px;
     border-radius: 0px 0px 0px 0px;
     cursor: pointer
-}
+}*/
