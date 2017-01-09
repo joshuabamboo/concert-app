@@ -101,7 +101,7 @@
 
 
                   <!-- LAYER NR. 4 -->
-                  <div class="tp-caption Hero-Button rev-btn  rs-parallaxlevel-0"
+                  <div class="tp-caption Hero-Button rev-btn rs-parallaxlevel-0"
                        id="slide-266-layer-7"
                        data-x="left"
                        data-hoffset="3"
@@ -112,7 +112,7 @@
                        data-whitespace="nowrap"
                        data-transform_idle="o:1;"
                        data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;"
-                       data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
+                       data-style_hover="c:rgba(0, 0, 0, 1.00);bg:rgba(255, 255, 255, .5);bc:rgba(255, 255, 255, 1.00);cursor:pointer;"
 
                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
                        data-transform_out="auto:auto;s:700;"
@@ -133,7 +133,7 @@
                        -moz-box-sizing:border-box;
                        -webkit-box-sizing:border-box;
 
-                       "><%= logged_in? ? link_to('LOGOUT', '/logout', {:style => 'color: #FFFFFF'}) : link_to('LOGIN WITH SPOTIFY', '/auth/spotify', {:style => 'color: #FFFFFF'}) %>
+                       "><%= logged_in? ? link_to('VIEW EVENTS NEAR YOU', current_user, {:style => 'color: #FFFFFF'}) : link_to('LOGIN WITH SPOTIFY', '/auth/spotify', {:style => 'color: #FFFFFF'}) %>
                   </div>
 
                </li>
