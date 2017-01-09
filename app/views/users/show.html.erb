@@ -1,10 +1,14 @@
 <% if @artists.empty? %>
-  Welcome, <%=current_user.name%>. Sit back while we analyze your Spotify listening history, and find all the upcoming concerts in your area from your favorite artists. Confirm or update your email address below.
+  <div class='col-xs-9 col-xs-offset-1'>
+    <h1>Welcome, <%=current_user.name%>.</h1> <h4>Sit back while we analyze your Spotify listening history, and find all the upcoming concerts in your area from your favorite artists. Confirm or update your email address below.</h4>
 
-  <%= form_for(current_user) do |f| %>
-    <%= f.text_field :email %>
-    <%= f.submit "Send me the shows", class: "btn btn-primary" %>
-  <% end %>
+    <div class="col-md-3 col-xs-12">
+      <%= form_for(current_user) do |f| %>
+        <%= f.text_field :email %>
+        <%= f.submit "Confirm Email", class: "btn" %>
+      <% end %>
+    </div>
+  </div>  
 <% else %>
   <%= @artists.size %> Artists. <%= @events.size %> Events.
   <table>
