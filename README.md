@@ -1,9 +1,7 @@
 # README
 
-(Heroku)[https://evening-beach-83776.herokuapp.com/]
+(Heroku)[https://concert-radar.herokuapp.com/]
 
-
-Things you may want to cover:
 
 * Ruby 2.2.3 / Rails 5.0
 
