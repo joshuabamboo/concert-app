@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    if current_user.events.empty?
+    if current_user.events
       SendWelcomeEmailJob.perform_later(current_user)
     end
     @artists = current_user.artists
