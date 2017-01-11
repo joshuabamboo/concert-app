@@ -500,39 +500,39 @@
         })();
 
         /* Off-Canvas Menu */
-        (function () {
+        // (function () {
 
-            var bodyEl = document.body,
-                content = document.querySelector('.content-wrap'),
-                openbtn = document.getElementById('open-button'),
-                closebtn = document.getElementById('close-button');
+        //     var bodyEl = document.body,
+        //         content = document.querySelector('.content-wrap'),
+        //         openbtn = document.getElementById('open-button'),
+        //         closebtn = document.getElementById('close-button');
 
-            function init() {
-                initEvents();
-            }
+            // function init() {
+            //     initEvents();
+            // }
 
-            function initEvents() {
-                openbtn.addEventListener('click', toggleMenu);
-                if (closebtn) {
-                    closebtn.addEventListener('click', toggleMenu);
-                }
+            // function initEvents() {
+            //     openbtn.addEventListener('click', toggleMenu);
+            //     if (closebtn) {
+            //         closebtn.addEventListener('click', toggleMenu);
+            //     }
 
-                // close the menu element if the target it´s not the menu element or one of its descendants..
-                content.addEventListener('click', function (ev) {
-                    var target = ev.target;
-                    if (classie.hasClass(bodyEl, 'show-menu') && target !== openbtn) {
-                        toggleMenu();
-                    }
-                });
-            }
+            //     // close the menu element if the target it´s not the menu element or one of its descendants..
+            //     content.addEventListener('click', function (ev) {
+            //         var target = ev.target;
+            //         if (classie.hasClass(bodyEl, 'show-menu') && target !== openbtn) {
+            //             toggleMenu();
+            //         }
+            //     });
+            // }
 
-            function toggleMenu() {
-                $( bodyEl ).toggleClass( 'show-menu' );
-            }
+        //     function toggleMenu() {
+        //         $( bodyEl ).toggleClass( 'show-menu' );
+        //     }
 
-            init();
+        //     init();
 
-        })();
+        // })();
 
         /* Isotope Portfolio */
         (function () {
