@@ -1,13 +1,3 @@
-/*-----------------------------------------------------------------------------
-
-- Revolution Slider 5.0 Navigatin Skin Style  -
-
- ARES SKIN
-
-author:  ThemePunch
-email:      info@themepunch.com
-website:    http://www.themepunch.com
------------------------------------------------------------------------------*/
 .ares.tparrows {
   cursor:pointer;
   background:#fff;
@@ -98,7 +88,7 @@ border-radius:30px 0px 0px 30px;
   opacity:1;
 }
 
-/* BULLETS */
+
 .ares.tp-bullets {
 }
 .ares.tp-bullets:before {
@@ -280,7 +270,6 @@ website:    http://www.themepunch.com
 
 
 
-/* BULLETS */
 .custom.tp-bullets {
 }
 .custom.tp-bullets:before {
@@ -312,23 +301,7 @@ website:    http://www.themepunch.com
 }
 
 
-/* THUMBS */
 
-
-/* TABS */
-
-
-/*-----------------------------------------------------------------------------
-
-- Revolution Slider 5.0 Navigatin Skin Style  -
-
- DIONE SKIN
-
-author:  ThemePunch
-email:      info@themepunch.com
-website:    http://www.themepunch.com
------------------------------------------------------------------------------*/
-/* ARROWS */
 .dione.tparrows {
   height:100%;
   width:100px;
@@ -413,7 +386,6 @@ visibility:visible;
 
 
 
-/* BULLETS */
 .dione .tp-bullet { 
     opacity:1;
     width:50px;
@@ -495,17 +467,6 @@ visibility:visible;
    }
 
 
-/*-----------------------------------------------------------------------------
-
-- Revolution Slider 5.0 Navigatin Skin Style  -
-
- ERINYEN SKIN
-
-author:  ThemePunch
-email:      info@themepunch.com
-website:    http://www.themepunch.com
------------------------------------------------------------------------------*/
-/* ARROWS */
 .erinyen.tparrows {
   cursor:pointer;
   background:#000;
@@ -627,7 +588,6 @@ website:    http://www.themepunch.com
   opacity:1;
 }
 
-/* BULLETS */
 .erinyen.tp-bullets {
 }
 .erinyen.tp-bullets:before {
@@ -635,14 +595,14 @@ website:    http://www.themepunch.com
 	position:absolute;
 	width:100%;
 	height:100%;
-	background: #555555; /* old browsers */
-    background: -moz-linear-gradient(top,  #555555 0%, #222222 100%); /* ff3.6+ */
+	background: #555555; 
+    background: -moz-linear-gradient(top,  #555555 0%, #222222 100%); 
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#222222)); /* chrome,safari4+ */
-    background: -webkit-linear-gradient(top,  #555555 0%,#222222 100%); /* chrome10+,safari5.1+ */
-    background: -o-linear-gradient(top,  #555555 0%,#222222 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(top,  #555555 0%,#222222 100%); /* ie10+ */
-    background: linear-gradient(to bottom,  #555555 0%,#222222 100%); /* w3c */
-    filter: progid:dximagetransform.microsoft.gradient( startcolorstr="#555555", endcolorstr="#222222",gradienttype=0 ); /* ie6-9 */
+    background: -webkit-linear-gradient(top,  #555555 0%,#222222 100%); 
+    background: -o-linear-gradient(top,  #555555 0%,#222222 100%); 
+    background: -ms-linear-gradient(top,  #555555 0%,#222222 100%); 
+    background: linear-gradient(to bottom,  #555555 0%,#222222 100%);
+    filter: progid:dximagetransform.microsoft.gradient( startcolorstr="#555555", endcolorstr="#222222",gradienttype=0 ); 
 	padding:10px 15px;
 	margin-left:-15px;margin-top:-10px;
 	box-sizing:content-box;
@@ -660,14 +620,14 @@ website:    http://www.themepunch.com
 }
 .erinyen .tp-bullet:hover,
 .erinyen .tp-bullet.selected {
-	background: #e5e5e5; /* old browsers */
-background: -moz-linear-gradient(top,  #e5e5e5 0%, #999999 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#999999)); /* chrome,safari4+ */
-background: -webkit-linear-gradient(top,  #e5e5e5 0%,#999999 100%); /* chrome10+,safari5.1+ */
-background: -o-linear-gradient(top,  #e5e5e5 0%,#999999 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(top,  #e5e5e5 0%,#999999 100%); /* ie10+ */
-background: linear-gradient(to bottom,  #e5e5e5 0%,#999999 100%); /* w3c */
-filter: progid:dximagetransform.microsoft.gradient( startcolorstr="#e5e5e5", endcolorstr="#999999",gradienttype=0 ); /* ie6-9 */
+	background: #e5e5e5; 
+background: -moz-linear-gradient(top,  #e5e5e5 0%, #999999 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#999999)); 
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#999999 100%); 
+background: -o-linear-gradient(top,  #e5e5e5 0%,#999999 100%); 
+background: -ms-linear-gradient(top,  #e5e5e5 0%,#999999 100%);
+background: linear-gradient(to bottom,  #e5e5e5 0%,#999999 100%);
+filter: progid:dximagetransform.microsoft.gradient( startcolorstr="#e5e5e5", endcolorstr="#999999",gradienttype=0 ); 
   border:1px solid #555;
   width:12px;height:12px;
 }
@@ -677,7 +637,6 @@ filter: progid:dximagetransform.microsoft.gradient( startcolorstr="#e5e5e5", end
 }
 
 
-/* THUMBS */
 .erinyen .tp-thumb {
 opacity:1
 }
@@ -752,7 +711,6 @@ opacity:1
 }
 
 
-/* TABS */
 .erinyen .tp-tab-title {
     color:#a8d8ee;
     font-size:13px;
@@ -770,21 +728,6 @@ opacity:1
 	font-family:"Roboto Slab";
 }
       
-
-/*-----------------------------------------------------------------------------
-
-- Revolution Slider 5.0 Navigatin Skin Style  -
-
- GYGES SKIN
-
-author:  ThemePunch
-email:      info@themepunch.com
-website:    http://www.themepunch.com
------------------------------------------------------------------------------*/
-/* ARROWS */
-
-
-/* BULLETS */
 .gyges.tp-bullets {
 }
 .gyges.tp-bullets:before {
@@ -837,7 +780,6 @@ website:    http://www.themepunch.com
 }
 	
 
-/* THUMBS */
 .gyges .tp-thumb { 
       opacity:1
   }
@@ -915,7 +857,7 @@ website:    http://www.themepunch.com
    }
 
 
-/* TABS */
+
 .gyges .tp-tab { 
   opacity:1;      
   padding:10px;
