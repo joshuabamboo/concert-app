@@ -233,7 +233,6 @@ DEPENDENCIES
   rails_12factor
   redis (~> 3.2)
   rspotify
-  sass
   sass-rails (~> 5.0)
   sidekiq
   sidekiq-status
