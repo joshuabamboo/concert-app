@@ -4,13 +4,8 @@ class SessionsController < ApplicationController
     persistable_auth = persistable_auth_hash(auth)
     user = User.from_oauth(persistable_auth)
     session[:user_id] = user.id
-    cookies[:concert_app] = {
-      :value => Base64.encode64(user.id.to_s),
-      :expires => 1.year.from_now,
-      :domain => 'localhost'
-    }
 
-    redirect_to user_path(user), notice: "Signed in"
+    redirect_to "#{root_url}#confirm-email"
   end
 
   def delete

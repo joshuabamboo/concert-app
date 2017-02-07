@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   function userIsLoggedIn() {
-    return document.cookie.indexOf('concert_app') > -1;
+    return document.location.href.indexOf('confirm-email') > -1;
   }
 
   function hasntConfirmedEmail() {
@@ -11,7 +11,7 @@ $( document ).ready(function() {
     $('#js--email-modal').modal();
   }
 
-	if (userIsLoggedIn && hasntConfirmedEmail) {
+	if (userIsLoggedIn() && hasntConfirmedEmail()) {
     showEmailModal();
 	}
 });

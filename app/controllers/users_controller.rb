@@ -15,7 +15,7 @@ class UsersController < ApplicationController
 
   def update
     current_user.update!(user_params)
-    redirect_to current_user, notice: "Your concerts are on the way!" 
+    redirect_to root_path, notice: "Your concerts are on the way!"
   end
 
   private
