@@ -8,11 +8,11 @@
                    data-thumb="assets/custom/images/rs-images/fullslide1-320x200.jpg" data-saveperformance="off"
                    data-title="Slide">
                   <!-- MAIN IMAGE -->
-                  <%= image_tag "iphone-bg.png", alt: "fullslide2", 
-                    "data-bgposition" => "center center", 
+                  <%= image_tag "iphone-bg.png", alt: "fullslide2",
+                    "data-bgposition" => "center center",
                     "data-bgfit" => "cover",
                     "data-bgrepeat" => "no-repeat" %>
-                  
+
                   <!-- LAYERS -->
 
 
@@ -149,22 +149,24 @@
    <!-- Email Capture Modal -->
    <div id="js--email-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
-  
+
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Confirm or Update Your Email Address</h4>
         </div>
         <div class="modal-body">
-          <%= form_for(current_user) do |f| %>
-            <%= f.text_field :email %>
-            <%= f.submit "Confirm Email", class: "btn" %>
+          <% if logged_in? %>
+            <%= form_for(current_user) do |f| %>
+              <%= f.text_field :email %>
+              <%= f.submit "Confirm Email", class: "btn" %>
+            <% end %>
           <% end %>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
-  
+
     </div>
   </div>
