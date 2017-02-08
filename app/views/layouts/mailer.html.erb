@@ -9,6 +9,36 @@
         font-style: normal;
       }
     </style>
+    <!-- DEVICE RESPONSIVENESS -->
+    <style media="screen">
+      /* ----------- Non-Retina Screens ----------- */
+      @media screen
+      and (min-device-width: 1000px)
+      and (max-device-width: 1600px)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        .heading-font {
+          font-size: 3em;
+          top: 15%;
+          left: 40%;
+          right: 20%;
+        }
+      }
+
+      /* ----------- Retina Screens ----------- */
+      @media screen
+      and (min-device-width: 1000px)
+      and (max-device-width: 1600px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (min-resolution: 192dpi) {
+        .heading-font {
+          font-size: 3em;
+          top: 15%;
+          left: 30% !important;
+          right: 30% !important;
+        }
+      }
+    </style>
+
 
     <style type="text/css">
     /* -------------------------------------
