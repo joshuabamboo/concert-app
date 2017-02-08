@@ -1,22 +1,115 @@
-<h1>Yo</h1>
+<!-- HEADER -->
+<div class="main-image">
+  <%= image_tag 'index-red-flash', alt: "", height: "auto", width: "100%", style: "background-color: #e85a3c; position: relative;", class: "emailImage" %>
+  <h2 class="heading-font" style="color: #ecf0f1; position: absolute;">Welcome. Some marketing speak.</h2>
+</div>
+
+<!-- MAIN -->
+<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:#f6f6f6;width:100%;">
+  <tr>
+    <td style="font-family:sans-serif;font-size:14px;vertical-align:top;">&nbsp;</td>
+    <td class="container" style="font-family:sans-serif;font-size:14px;vertical-align:top;display:block;max-width:580px;padding:10px;width:580px;Margin:0 auto !important;">
+      <div class="content" style="box-sizing:border-box;display:block;Margin:0 auto;max-width:580px;padding:10px;">
+        <!-- START CENTERED WHITE CONTAINER -->
+        <span class="preheader" style="color:transparent;display:none;height:0;max-height:0;max-width:0;opacity:0;overflow:hidden;mso-hide:all;visibility:hidden;width:0;">This is preheader text. Some clients will show this text as a preview.</span>
+        <table class="main" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;background:#fff;border-radius:3px;width:100%;">
+          <!-- START MAIN CONTENT AREA -->
+          <tr>
+            <td class="wrapper" style="font-family:sans-serif;font-size:14px;vertical-align:top;box-sizing:border-box;padding:20px;">
+              <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;">
+                <tr>
+                  <td style="font-family:sans-serif;font-size:14px;vertical-align:top;">
+                    <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Hi there,</p>
+                    <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Some more awesome copy goes here.</p>
+                    <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;box-sizing:border-box;width:100%;">
+                      <tbody>
+                        <tr>
+                          <td align="left" style="font-family:sans-serif;font-size:14px;vertical-align:top;padding-bottom:15px;">
+                            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;width:auto;">
+                              <tbody>
+                                <tr>
+                                  <td style="font-family:sans-serif;font-size:14px;vertical-align:top;background-color:#ffffff;border-radius:5px;text-align:center;background-color:#3498db;"> <a href="http://htmlemail.io" target="_blank" style="text-decoration:underline;background-color:#ffffff;border:solid 1px #3498db;border-radius:5px;box-sizing:border-box;color:#3498db;cursor:pointer;display:inline-block;font-size:14px;font-weight:bold;margin:0;padding:12px 25px;text-decoration:none;text-transform:capitalize;background-color:#3498db;border-color:#3498db;color:#ffffff;">Call To Action</a> </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Lorem Khaled Ipsum is a major key to success. Special cloth alert. To succeed you must believe. When you believe, you will succeed. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing. Cloth talk. Major key, don’t fall for the trap, stay focused. It’s the ones closest to you that want to see you fail. The other day the grass was brown, now it’s green because I ain’t give up. Never surrender. Lion!</p>
+                    <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Let's go see some shows.</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- END MAIN CONTENT AREA -->
+        </table>
+        <!-- START FOOTER -->
+        <div class="footer" style="clear:both;padding-top:10px;text-align:center;width:100%;">
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:separate;mso-table-lspace:0pt;mso-table-rspace:0pt;width:100%;">
+            <tr>
+              <td class="content-block" style="font-family:sans-serif;font-size:14px;vertical-align:top;color:#999999;font-size:12px;text-align:center;">
+                <span class="apple-link" style="color:#999999;font-size:12px;text-align:center;">Made with love in NYC</span>
+                <br>
+                 Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif" style="color:#3498db;text-decoration:underline;color:#999999;font-size:12px;text-align:center;">Unsubscribe</a>.
+              </td>
+            </tr>
+            <tr>
+              <td class="content-block powered-by" style="font-family:sans-serif;font-size:14px;vertical-align:top;color:#999999;font-size:12px;text-align:center;">
+                View on <a href="https://github.com/joshuabamboo/concert-app" style="color:#3498db;text-decoration:underline;color:#999999;font-size:12px;text-align:center;text-decoration:none;">Github</a>.
+              </td>
+            </tr>
+          </table>
+        </div>
+        <!-- END FOOTER -->
+        <!-- END CENTERED WHITE CONTAINER -->
+      </div>
+    </td>
+    <td style="font-family:sans-serif;font-size:14px;vertical-align:top;">&nbsp;</td>
+  </tr>
+</table>
 
 
-<h4>
-  Let's go watch some shit.
-</h4>
 
-<h5>Events this week:</h5>
-<% @this_weeks_events.each do |event|%>
-    <p>
-      <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
-    </p>
-<% end %>
+<!-- DEVICE RESPONSIVENESS -->
+<style media="screen">
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      .heading-font {
+        font-size: 2em;
+        top: 100px;
+        left: 5%;
+        right: 5%;
+      }
+  }
+  /* ----------- iPhone 6+ ----------- */
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+      .heading-font {
+        font-size: 3em;
+        top: 5%;
+        left: 10%;
+        right: 10%;
+      }
+  }
+  /* ----------- Tablet ----------- */
+  /* Portrait and Landscape */
+  @media only screen
+    and (min-device-width: 736px)
+    and (max-device-width: 1400px) {
+      .heading-font {
+        font-size: 5em;
+        top: 15%;
+        left: 10%;
+        right: 10%;
+      }
+  }
 
-<h5>More events:</h5>
-<% @remaining_events.each do |event|%>
-    <p>
-      <%= link_to(event[:title], event[:ticket_url], target: :blank) %> - <%= event[:date] %>
-    </p>
-<% end %>
-
-
+</style>

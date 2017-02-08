@@ -6,8 +6,9 @@ class UsersController < ApplicationController
   end
 
   def show
+    SendWelcomeEmailJob.perform_now(current_user) #move to async action when Devin submits PR
     if !current_user.events
-      SendWelcomeEmailJob.perform_later(current_user)
+      # SendSubscriptionEmailJob.perform_later(current_user) #change job name
     end
     @artists = current_user.artists
     current_user.events ? @events = current_user.sort_events : @events = nil #this is ugly
@@ -15,7 +16,7 @@ class UsersController < ApplicationController
 
   def update
     current_user.update!(user_params)
-    redirect_to current_user, notice: "Your concerts are on the way!" 
+    redirect_to current_user, notice: "Your concerts are on the way!"
   end
 
   private

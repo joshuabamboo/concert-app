@@ -36,14 +36,14 @@ class User < ApplicationRecord
   end
 
   def saved_albums_artists(client)
-    albums = client.saved_albums 
+    albums = client.saved_albums
     albums.collect do |album|
       album.artists.collect {|artist| artist.name}
     end.flatten
   end
 
   def saved_tracks_artists(client)
-    tracks = client.saved_tracks(limit: 50) 
+    tracks = client.saved_tracks(limit: 50)
     tracks.collect do |track|
       track.artists.collect {|artist| artist.name}
     end.flatten
