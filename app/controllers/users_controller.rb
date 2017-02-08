@@ -6,7 +6,6 @@ class UsersController < ApplicationController
   end
 
   def show
-    SendWelcomeEmailJob.perform_now(current_user) #move to async action when Devin submits PR
     if !current_user.events
       # SendSubscriptionEmailJob.perform_later(current_user) #change job name
     end
@@ -16,6 +15,7 @@ class UsersController < ApplicationController
 
   def update
     current_user.update!(user_params)
+    SendWelcomeEmailJob.perform_now(current_user)
     redirect_to root_path, notice: "Your concerts are on the way!"
   end
 
