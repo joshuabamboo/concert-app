@@ -1,0 +1,108 @@
+// @media screen
+// and (min-device-width: 1000px)
+// and (max-device-width: 1600px)
+// and (-webkit-min-device-pixel-ratio: 2)
+// and (min-resolution: 192dpi) {
+//   .responsive {
+//     height: 100%;
+//     width: auto;
+//   }
+// }
+//
+//
+// /* ----------- iPhone 5 and 5S ----------- */
+//
+// /* Portrait and Landscape */
+// @media only screen
+//   and (min-device-width: 320px)
+//   and (max-device-width: 568px)
+//   and (-webkit-min-device-pixel-ratio: 2) {
+//     img.responsive {
+//       display: none;
+//       height: 100%;
+//     }
+// }
+
+
+@media (min-device-width: 541px){
+  /* Big view stuff goes here. */
+  .phone-message {
+    display: none;
+  }
+}
+@media (max-device-width: 540px){
+  /* Smaller view stuff goes here. */
+  .welcome-main {
+    display: none;
+  }
+
+  .phone-message {
+    width: 100%;
+  }
+
+  .background-img {
+    background-color: #e85a3c;
+    bottom:0px;
+    position:fixed;
+  }
+
+  .sign-up {
+    position: absolute;
+    top: 75%;
+    width: 87%;
+    left: 5%;
+    // left: 50%;
+    // margin-top: 50%;
+  }
+  .phone-message button {
+    // position:absolute;  // absolutely positioned
+    // transition: .5s ease;
+    // top: 50%;
+    // left: 50%;
+    // padding:2px 4px;
+    font-size:10em;
+    // line-height: 12;
+  }
+
+  .copy h1 {
+    top: 19%;
+    left: 5%;
+    position: absolute;
+    font-size: 11em;
+    color: #ecf0f1;
+  }
+
+  .copy p {
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    font-size: 4em;
+    color: #ecf0f1;
+    font-weight: bold;
+  }
+
+  body.device-bg {
+    background-color: #e85a3c;
+  }
+
+  .btn-default {
+    &.btn-inverse {
+      @include button-variant($btn-default-bg, $btn-default-color, $btn-default-bg);
+      &:hover {
+        @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+      }
+    }
+    &.btn-transparent {
+      @include button-variant($btn-default-bg, transparent, $btn-default-bg);
+      &:hover {
+        @include button-variant($btn-default-bg, darken($btn-default-bg, 25%), $btn-default-bg);
+      }
+    }
+  }
+}
+// @media (max-device-width: 299px){
+//   /* Stuff for really small views goes here. */
+//   .welcome-main {
+//     display: none;
+//   }
+// }
