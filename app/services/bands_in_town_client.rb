@@ -16,16 +16,17 @@ class BandsInTownClient
       tries ||= 2
       response = RestClient.get(url)
       events = JSON.parse(response)
-      events.collect do |event| 
+      events.collect do |event|
           {
             title: event["title"],
             date: event["formatted_datetime"],
-            ticket_url: (event["ticket_url"] ? event["ticket_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,"") : event["facebook_rsvp_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,""))
+            ticket_url: (event["ticket_url"] ? event["ticket_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,"") : event["facebook_rsvp_url"].gsub(/(&came_from=\d\d\d|&came_from=\d\d|&came_from=\d)/,"")),
+            image_url: event['artists'].find {|a| a["name"]==artist }["thumb_url"]
           }
       end
     rescue => e
       if (!((tries -= 1).zero?) && e.message == "400 Bad Request")
-        sleep(60) 
+        sleep(60)
         retry
       else
         []
@@ -34,7 +35,7 @@ class BandsInTownClient
   end
 
   def self.asciify(artist)
-    artist_non_frozen = artist.dup 
+    artist_non_frozen = artist.dup
     artist_non_frozen.split("").each_with_index do |letter, index|
       if ascii = ASCII_MAP[letter]
         artist_non_frozen[index] = ascii
@@ -43,4 +44,3 @@ class BandsInTownClient
     artist_non_frozen
   end
 end
-

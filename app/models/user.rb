@@ -20,9 +20,9 @@ class User < ApplicationRecord
   end
 
   def top_artists(client)
-    artists = client.top_artists(time_range: 'long_term').collect {|artist| artist.name}
-    artists << client.top_artists(time_range: 'medium_term').collect {|artist| artist.name}
-    artists << client.top_artists(time_range: 'short_term').collect {|artist| artist.name}
+    artists = client.top_artists(time_range: 'long_term', limit: 50).collect {|artist| artist.name}
+    artists << client.top_artists(time_range: 'medium_term', limit: 50).collect {|artist| artist.name}
+    artists << client.top_artists(time_range: 'short_term', limit: 50).collect {|artist| artist.name}
     artists.flatten.uniq
   end
 
@@ -66,8 +66,8 @@ class User < ApplicationRecord
     saved_artists = self.saved_artists(client).uniq
     album_artists = self.saved_albums_artists(client).uniq
     track_artists = self.saved_tracks_artists(client).uniq
-    playlist_artists = self.playlists(client).uniq
-    all_artists = [top_artists, saved_artists, album_artists, track_artists, playlist_artists].flatten.uniq
+    # playlist_artists = self.playlists(client).uniq
+    all_artists = [top_artists, saved_artists, album_artists, track_artists].flatten.uniq
   end
 
 
@@ -91,5 +91,9 @@ class User < ApplicationRecord
     sort_events.collect do |event|
       event if event[:date] > next_week
     end.delete_if {|e| e == nil}
+  end
+
+  def on_sale_soon_events
+    remaining_events
   end
 end

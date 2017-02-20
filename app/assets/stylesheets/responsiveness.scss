@@ -30,6 +30,11 @@
     display: none;
   }
 }
+
+@media only screen and (max-device-width: 600px) and (orientation: landscape) {
+      /* css rules */
+}
+
 @media (max-device-width: 540px){
   /* Smaller view stuff goes here. */
   .welcome-main {
