@@ -15,7 +15,7 @@ class UsersController < ApplicationController
 
   def update
     current_user.update!(user_params)
-    SendWelcomeEmailJob.perform_now(current_user)
+    SendWelcomeEmailJob.perform_later(current_user)
     redirect_to root_path, notice: "Your concerts are on the way!"
   end
 
