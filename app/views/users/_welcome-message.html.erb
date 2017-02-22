@@ -133,7 +133,7 @@
                      -moz-box-sizing:border-box;
                      -webkit-box-sizing:border-box;
 
-                     "><%= logged_in? ? link_to('VIEW EVENTS NEAR YOU', current_user, {:style => 'color: #FFFFFF'}) : link_to('LOGIN WITH SPOTIFY', '/auth/spotify', {:style => 'color: #FFFFFF'}) %>
+                     "><%= logged_in? ? link_to('LOGOUT', logout_path, {:style => 'color: #FFFFFF'}) : link_to('LOGIN WITH SPOTIFY', '/auth/spotify', {:style => 'color: #FFFFFF'}) %>
                 </div>
 
              </li>
