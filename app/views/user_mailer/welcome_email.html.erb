@@ -17,7 +17,7 @@
                     <%= image_tag 'index-red-flash.png', alt: "", height: "15%", width: "100%", style: "background-color: #e85a3c;", class: "emailImage" %>
                     <!-- <h2 class="heading-font" style="color:#ecf0f1;position:absolute;top:10%;left:15%;right:10%;">Welcome. Some marketing speak.</h2> -->
                     <!-- END IMAGE HEADER -->
-                    <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Hey <%= @user.name.split.first || @user.email %>,</p>
+                    <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Hey <%= @user.name ? @user.name.split.first : @user.email %>,</p>
                     <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Welcome to Concert Radar - A weekly email connecting you to concerts you'll want to go to. </p>
                     <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">This project came about because some friends and I were missing a bunch of shows that we would've wanted to go to had we known about them. I wanted to design an experience that was as passive as possible. This is partly because we are lazy, and partly because there is too much information out there. So we employed some hard-working robots to curate lists for us.</p>
                     <p style="font-family:sans-serif;font-size:14px;font-weight:normal;margin:0;Margin-bottom:15px;">Here is a sample of some shows they've found for you so far. Let me know if you want to go to a show!</p>
