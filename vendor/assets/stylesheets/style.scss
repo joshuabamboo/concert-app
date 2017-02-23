@@ -1109,7 +1109,8 @@ ul.sf-menu > li, .sf-menu > li > a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
+  height: 100%;
   overflow: hidden; }
 
 #header-wrapper-mp .sticky-header {
