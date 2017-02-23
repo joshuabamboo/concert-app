@@ -14,8 +14,8 @@ module ConcertApp
     config.active_job.queue_adapter = :sidekiq
     config.serve_static_assets = true
     # config.asset_host = 'http://localhost:3000/' #'https://concert-radar.herokuapp.com/'
-    config.action_controller.asset_host = 'https://concert-radar.herokuapp.com/'
-    config.action_mailer.asset_host = 'https://concert-radar.herokuapp.com/'
+    config.action_controller.asset_host = 'http://localhost:3000/'
+    config.action_mailer.asset_host = 'http://localhost:3000/'
   end
 end
  Dotenv::Railtie.load

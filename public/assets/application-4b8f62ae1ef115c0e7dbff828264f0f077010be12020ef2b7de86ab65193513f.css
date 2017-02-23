@@ -370,8 +370,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("https://concert-radar.herokuapp.com/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot");
-  src: url("https://concert-radar.herokuapp.com/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot?#iefix") format("embedded-opentype"), url("https://concert-radar.herokuapp.com/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2") format("woff2"), url("https://concert-radar.herokuapp.com/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff") format("woff"), url("https://concert-radar.herokuapp.com/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf") format("truetype"), url("https://concert-radar.herokuapp.com/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg#glyphicons_halflingsregular") format("svg");
+  src: url("http://localhost:3000/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot");
+  src: url("http://localhost:3000/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot?#iefix") format("embedded-opentype"), url("http://localhost:3000/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2") format("woff2"), url("http://localhost:3000/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff") format("woff"), url("http://localhost:3000/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf") format("truetype"), url("http://localhost:3000/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg#glyphicons_halflingsregular") format("svg");
 }
 /* line 24, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8799,8 +8799,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("https://concert-radar.herokuapp.com/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot");
-  src: url("https://concert-radar.herokuapp.com/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot?#iefix") format("embedded-opentype"), url("https://concert-radar.herokuapp.com/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2") format("woff2"), url("https://concert-radar.herokuapp.com/assets/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff") format("woff"), url("https://concert-radar.herokuapp.com/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf") format("truetype"), url("https://concert-radar.herokuapp.com/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg#fontawesomeregular") format("svg");
+  src: url("http://localhost:3000/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot");
+  src: url("http://localhost:3000/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot?#iefix") format("embedded-opentype"), url("http://localhost:3000/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2") format("woff2"), url("http://localhost:3000/assets/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff") format("woff"), url("http://localhost:3000/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf") format("truetype"), url("http://localhost:3000/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -19959,11 +19959,12 @@ ul.sf-menu > li, .sf-menu > li > a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
+  height: 100%;
   overflow: hidden;
 }
 
-/* line 1115, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1116, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .sticky-header {
   height: 120px;
   transition: all 0.25s ease 0s;
@@ -19973,7 +19974,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   -o-transition: all 0.25s ease 0s;
 }
 
-/* line 1122, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1123, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp #site-title h1, #header-wrapper-mp #site-title h1 i::before, #header-wrapper-mp #main-menu {
   transition: all 0.25s ease 0s;
   -webkit-transition-: all 0.25s ease 0s;
@@ -19982,7 +19983,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   -o-transition: all 0.25s ease 0s;
 }
 
-/* line 1129, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1130, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .sticky-header {
   position: relative;
   top: 40;
@@ -19992,47 +19993,47 @@ ul.sf-menu > li, .sf-menu > li > a {
   box-sizing: border-box;
 }
 
-/* line 1137, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1138, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky .sticky-header {
   filter: alpha(opacity=90);
   height: 80px;
   top: 0;
 }
 
-/* line 1141, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1142, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky > .sticky-header > .mp-nav {
   border-bottom: none;
 }
 
-/* line 1143, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1144, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky #site-title {
   float: left;
 }
 
-/* line 1145, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1146, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky #site-title h1 {
   font-size: 28px;
   margin-top: 24px;
 }
 
-/* line 1148, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1149, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky #site-title h1 i::before {
   font-size: 30px;
 }
 
-/* line 1150, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1151, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky #site-title h1 a {
   text-decoration: none;
 }
 
-/* line 1152, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1153, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky #main-menu {
   float: right;
   border: none;
   margin-top: 20px;
 }
 
-/* line 1156, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1157, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .is-sticky #main-menu > ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
@@ -20041,90 +20042,90 @@ ul.sf-menu > li, .sf-menu > li > a {
 
 /* Header and Initial menu Colors -------------------------------------------------
 */
-/* line 1163, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1164, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #sub-top-dark {
   background-color: #4a4a4a;
   color: #8e8e8e;
 }
 
-/* line 1166, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1167, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #sub-top-dark a, #sub-top-dark i {
   color: #8e8e8e;
 }
 
-/* line 1169, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1170, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #sub-top-light {
   background-color: #f2f2f2;
   color: #303030;
 }
 
-/* line 1172, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1173, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #sub-top-light a, #sub-top-light i {
   color: #303030;
 }
 
-/* line 1175, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1176, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark {
   background: #5d5d5d;
 }
 
-/* line 1177, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1178, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .nav-icon div {
   background-color: #fff;
 }
 
-/* line 1179, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1180, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .nav-icon::before, #header-wrapper-mp .header-dark .nav-icon::after {
   background-color: #fff;
 }
 
-/* line 1181, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1182, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .nav-icon:hover:before, #header-wrapper-mp .header-dark .nav-icon:hover:after, #header-wrapper-mp .header-dark .nav-icon:hover div {
   background-color: #E84855;
 }
 
-/* line 1183, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1184, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #site-title a {
   color: #fff;
 }
 
-/* line 1185, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1186, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #site-title a h1 {
   color: #fff !important;
 }
 
-/* line 1187, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1188, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #site-title a h1 i {
   color: #fff;
 }
 
-/* line 1189, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1190, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #mobnav-btn i {
   color: #fff;
 }
 
-/* line 1191, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1192, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #main-menu a > i {
   color: #fff;
 }
 
-/* line 1193, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1194, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #main-menu a:hover {
   color: #fff;
 }
 
-/* line 1195, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1196, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #main-menu > ul > li > a {
   color: #fff;
   letter-spacing: 3px;
 }
 
-/* line 1198, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1199, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark #main-menu > ul > li > .sf-with-ul:after {
   border-top-color: #fff;
 }
 
-/* line 1200, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1201, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border {
   position: relative;
   overflow: hidden;
@@ -20141,45 +20142,45 @@ ul.sf-menu > li, .sf-menu > li > a {
   color: #303030;
 }
 
-/* line 1214, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1215, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .overlay-content {
   padding: 0 42px 0 42px;
 }
 
-/* line 1216, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1217, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border input, #header-wrapper-mp .header-dark .overlay-border textarea {
   border: 1px solid #5d5d5d;
   border-radius: 1px;
   color: #5d5d5d;
 }
 
-/* line 1220, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1221, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border:hover {
   background: white;
 }
 
-/* line 1222, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1223, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border:hover i::before {
   color: #E84855;
 }
 
-/* line 1224, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1225, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border a {
   color: #303030;
 }
 
-/* line 1226, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1227, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border a:hover, #header-wrapper-mp .header-dark .overlay-border a:focus {
   color: #303030;
   text-decoration: none;
 }
 
-/* line 1229, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1230, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border i::before {
   font-size: 18px;
 }
 
-/* line 1231, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1232, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .label-click {
   top: -50px;
   left: auto;
@@ -20200,7 +20201,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   transform: rotate(45deg);
 }
 
-/* line 1249, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1250, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .label-click i::before {
   font-size: 22px;
   top: 64px;
@@ -20210,7 +20211,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   color: #fff;
 }
 
-/* line 1256, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1257, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border i::before {
   font-size: 72px;
   color: #5d5d5d;
@@ -20221,7 +20222,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   -ms-transition: all 0.2s ease-in-out;
 }
 
-/* line 1264, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1265, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border h4 {
   color: #5d5d5d;
   text-transform: uppercase;
@@ -20231,30 +20232,30 @@ ul.sf-menu > li, .sf-menu > li > a {
   letter-spacing: normal;
 }
 
-/* line 1271, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1272, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border p {
   font-size: 12px;
   color: #5d5d5d;
 }
 
-/* line 1274, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1275, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .overlay-description {
   margin-top: 21px;
 }
 
-/* line 1276, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1277, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .overlay-description ul {
   padding: 0px;
 }
 
-/* line 1278, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1279, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .overlay-description ul li {
   list-style: none;
   display: inline-block;
   padding: 0px;
 }
 
-/* line 1282, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1283, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .overlay-description ul li i, #header-wrapper-mp .header-dark .overlay-border .overlay-description ul li i::before {
   color: #5d5d5d;
   font-size: 24px !important;
@@ -20262,73 +20263,73 @@ ul.sf-menu > li, .sf-menu > li > a {
   line-height: 30px;
 }
 
-/* line 1287, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1288, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-dark .overlay-border .overlay-description ul li a:hover i::before {
   color: #E84855;
 }
 
-/* line 1289, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1290, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light {
   background: #fff;
 }
 
-/* line 1291, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1292, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .nav-icon div {
   background-color: #5d5d5d;
 }
 
-/* line 1293, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1294, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .nav-icon::before, #header-wrapper-mp .header-light .nav-icon::after {
   background-color: #5d5d5d;
 }
 
-/* line 1295, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1296, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .nav-icon:hover:before, #header-wrapper-mp .header-light .nav-icon:hover:after, #header-wrapper-mp .header-light .nav-icon:hover div {
   background-color: #E84855;
 }
 
-/* line 1297, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1298, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #site-title a {
   color: #404040;
 }
 
-/* line 1299, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1300, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #site-title a h1 {
   color: #404040 !important;
 }
 
-/* line 1301, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1302, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #site-title a h1 i {
   color: #404040;
 }
 
-/* line 1303, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1304, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #mobnav-btn i {
   color: #404040;
 }
 
-/* line 1305, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1306, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #main-menu a > i {
   color: #303030;
 }
 
-/* line 1307, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1308, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #main-menu a:hover {
   color: #E84855;
 }
 
-/* line 1309, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1310, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #main-menu > ul > li > a {
   color: #404040;
   letter-spacing: 3px;
 }
 
-/* line 1312, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1313, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light #main-menu > ul > li > .sf-with-ul:after {
   border-top-color: #404040;
 }
 
-/* line 1314, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1315, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border {
   position: relative;
   overflow: hidden;
@@ -20345,45 +20346,45 @@ ul.sf-menu > li, .sf-menu > li > a {
   color: #303030;
 }
 
-/* line 1328, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1329, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .overlay-content {
   padding: 0 42px 0 42px;
 }
 
-/* line 1330, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1331, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border input, #header-wrapper-mp .header-light .overlay-border textarea {
   border: 1px solid #5d5d5d;
   border-radius: 1px;
   color: #5d5d5d;
 }
 
-/* line 1334, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1335, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border:hover {
   background: white;
 }
 
-/* line 1336, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1337, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border:hover i::before {
   color: #E84855;
 }
 
-/* line 1338, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1339, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border a {
   color: #303030;
 }
 
-/* line 1340, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1341, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border a:hover, #header-wrapper-mp .header-light .overlay-border a:focus {
   color: #303030;
   text-decoration: none;
 }
 
-/* line 1343, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1344, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border i::before {
   font-size: 18px;
 }
 
-/* line 1345, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1346, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .label-click {
   top: -50px;
   left: auto;
@@ -20404,7 +20405,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   transform: rotate(45deg);
 }
 
-/* line 1363, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1364, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .label-click i::before {
   font-size: 22px;
   top: 64px;
@@ -20414,7 +20415,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   color: #fff;
 }
 
-/* line 1370, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1371, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border i::before {
   font-size: 72px;
   color: #5d5d5d;
@@ -20425,7 +20426,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   -ms-transition: all 0.2s ease-in-out;
 }
 
-/* line 1378, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1379, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border h4 {
   color: #5d5d5d;
   text-transform: uppercase;
@@ -20435,30 +20436,30 @@ ul.sf-menu > li, .sf-menu > li > a {
   letter-spacing: normal;
 }
 
-/* line 1385, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1386, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border p {
   font-size: 12px;
   color: #5d5d5d;
 }
 
-/* line 1388, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1389, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .overlay-description {
   margin-top: 21px;
 }
 
-/* line 1390, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1391, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .overlay-description ul {
   padding: 0px;
 }
 
-/* line 1392, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1393, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .overlay-description ul li {
   list-style: none;
   display: inline-block;
   padding: 0px;
 }
 
-/* line 1396, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1397, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .overlay-description ul li i, #header-wrapper-mp .header-light .overlay-border .overlay-description ul li i::before {
   color: #5d5d5d;
   font-size: 24px !important;
@@ -20466,216 +20467,216 @@ ul.sf-menu > li, .sf-menu > li > a {
   line-height: 30px;
 }
 
-/* line 1401, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1402, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .header-light .overlay-border .overlay-description ul li a:hover i::before {
   color: #E84855;
 }
 
-/* line 1404, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1405, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp .nobg {
   background: none;
 }
 
-/* line 1407, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1408, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu .sf-arrows > li > .sf-with-ul:focus:after,
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu .sf-arrows > li:hover > .sf-with-ul:after,
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu .sf-arrows > .sfHover > .sf-with-ul:after {
   border-top-color: #fff;
 }
 
-/* line 1411, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1412, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu a > i {
   color: #fff !important;
 }
 
-/* line 1413, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1414, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu a > i {
   color: #eaeaea !important;
 }
 
-/* line 1415, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1416, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu a:hover {
   color: #fff;
 }
 
-/* line 1417, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1418, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu > ul > li > a {
   color: #eaeaea;
 }
 
-/* line 1419, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1420, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu > ul > li > .sf-with-ul:after {
   border-top-color: #fff !important;
 }
 
-/* line 1421, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1422, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky .overlay-border {
   display: none;
 }
 
-/* line 1423, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1424, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky .nav-icon div {
   background-color: #5d5d5d;
 }
 
-/* line 1425, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1426, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky .nav-icon::before, #header-wrapper-mp.sticky-menu-dark .is-sticky .nav-icon::after {
   background-color: #fff;
 }
 
-/* line 1427, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1428, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky .nav-icon:hover:before, #header-wrapper-mp.sticky-menu-dark .is-sticky .nav-icon:hover:after, #header-wrapper-mp.sticky-menu-dark .is-sticky .nav-icon:hover div {
   background-color: #E84855;
 }
 
-/* line 1429, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1430, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #site-title a {
   color: #fff !important;
 }
 
-/* line 1431, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1432, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #site-title a h1 {
   color: #fff !important;
 }
 
-/* line 1433, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1434, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky #site-title a h1 i {
   color: #fff !important;
 }
 
-/* line 1435, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1436, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .is-sticky .sticky-header {
   background: #5d5d5d;
   opacity: 1;
 }
 
-/* line 1438, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1439, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .sf-menu ul li {
   background: #4a4a4a;
   opacity: 1;
 }
 
-/* line 1441, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1442, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .sf-menu ul li ul li {
   background: #4a4a4a;
   opacity: 1;
 }
 
-/* line 1444, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1445, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-dark .sf-menu ul li:hover, #header-wrapper-mp.sticky-menu-dark .sf-menu ul li.sfHover {
   background: #5d5d5d;
 }
 
-/* line 1447, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1448, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu a > i {
   color: #5d5d5d;
 }
 
-/* line 1449, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1450, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu > ul > li > .sf-with-ul:after {
   border-top-color: #303030;
 }
 
-/* line 1451, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1452, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu > ul > li > a {
   color: #eaeaea;
 }
 
-/* line 1453, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1454, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu > ul > li > a:hover {
   color: #fff;
 }
 
-/* line 1455, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1456, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu a > i {
   color: #303030;
 }
 
-/* line 1457, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1458, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu a:hover {
   color: #E84855;
 }
 
-/* line 1459, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1460, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu > ul > li > a {
   color: #5d5d5d;
 }
 
-/* line 1461, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1462, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu > ul > li > a:hover {
   color: #E84855;
 }
 
-/* line 1463, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1464, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #main-menu > ul > li > .sf-with-ul:after {
   border-top-color: #5d5d5d;
 }
 
-/* line 1465, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1466, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky .overlay-border {
   display: none;
 }
 
-/* line 1467, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1468, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky .nav-icon div {
   background-color: #5d5d5d;
 }
 
-/* line 1469, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1470, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky .nav-icon::before, #header-wrapper-mp.sticky-menu-light .is-sticky .nav-icon::after {
   background-color: #303030;
 }
 
-/* line 1471, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1472, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky .nav-icon:hover:before, #header-wrapper-mp.sticky-menu-light .is-sticky .nav-icon:hover:after, #header-wrapper-mp.sticky-menu-light .is-sticky .nav-icon:hover div {
   background-color: #E84855;
 }
 
-/* line 1473, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1474, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #site-title a {
   color: #303030 !important;
 }
 
-/* line 1475, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1476, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #site-title a h1 {
   color: #303030 !important;
 }
 
-/* line 1477, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1478, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky #site-title a h1 i {
   color: #303030 !important;
 }
 
-/* line 1479, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1480, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .is-sticky .sticky-header {
   background: white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 1482, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1483, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .sf-menu ul li {
   background: #5d5d5d;
   opacity: 1;
 }
 
-/* line 1485, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1486, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .sf-menu ul li ul li {
   background: #5d5d5d;
   opacity: 1;
 }
 
-/* line 1488, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1489, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #header-wrapper-mp.sticky-menu-light .sf-menu ul li:hover, #header-wrapper-mp.sticky-menu-light .sf-menu ul li.sfHover {
   background: #5d5d5d;
 }
 
 /* Menu Top Button */
-/* line 1492, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1493, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 li.mob-button {
   display: none;
 }
 
-/* line 1495, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1496, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .menu-button {
   top: -41px;
   right: -55px;
@@ -20686,13 +20687,13 @@ li.mob-button {
   cursor: pointer;
 }
 
-/* line 1504, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1505, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon {
   margin: 1em 0 1em 1em;
   width: 27px;
 }
 
-/* line 1508, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1509, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon:after,
 .nav-icon:before,
 .nav-icon div {
@@ -20710,21 +20711,21 @@ li.mob-button {
   transition: all .2s ease-in-out;
 }
 
-/* line 1524, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1525, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon:hover:before {
   transform: translateY(10px) rotate(135deg);
   -moz-transform: translateY(10px) rotate(135deg);
   -webkit-transform: translateY(10px) rotate(135deg);
 }
 
-/* line 1529, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1530, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon:hover:after {
   transform: translateY(-12px) rotate(-135deg);
   -moz-transform: translateY(-12px) rotate(-135deg);
   -webkit-transform: translateY(-12px) rotate(-135deg);
 }
 
-/* line 1534, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1535, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon:hover div {
   -moz-transform: scale(0);
   -webkit-transform: scale(0);
@@ -20732,7 +20733,7 @@ li.mob-button {
 }
 
 /* Close Button */
-/* line 1540, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1541, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .close-button {
   position: absolute;
   right: 1em;
@@ -20741,14 +20742,14 @@ li.mob-button {
   background: transparent;
 }
 
-/* line 1547, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1548, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2 {
   margin: 1em;
   width: 30px;
   cursor: pointer;
 }
 
-/* line 1552, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1553, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2:after,
 .nav-icon2:before,
 .nav-icon2 div {
@@ -20767,28 +20768,28 @@ li.mob-button {
   transition: all .2s ease-in-out;
 }
 
-/* line 1569, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1570, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2:before {
   transform: translateY(12px) rotate(135deg);
   -moz-transform: translateY(12px) rotate(135deg);
   -webkit-transform: translateY(12px) rotate(135deg);
 }
 
-/* line 1574, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1575, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2:after {
   transform: translateY(-12px) rotate(-135deg);
   -moz-transform: translateY(-12px) rotate(-135deg);
   -webkit-transform: translateY(-12px) rotate(-135deg);
 }
 
-/* line 1579, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1580, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2 div {
   -moz-transform: scale(0);
   -webkit-transform: scale(0);
   transform: scale(0);
 }
 
-/* line 1584, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1585, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2:hover:before {
   background-color: #E84855;
   transform: translateY(0px) rotate(0deg);
@@ -20796,7 +20797,7 @@ li.mob-button {
   -webkit-transform: translateY(0px) rotate(0deg);
 }
 
-/* line 1590, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1591, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2:hover:after {
   background-color: #E84855;
   transform: translateY(0px) rotate(0deg);
@@ -20804,7 +20805,7 @@ li.mob-button {
   -webkit-transform: translateY(0px) rotate(0deg);
 }
 
-/* line 1596, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1597, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .nav-icon2:hover div {
   background-color: #E84855;
   -moz-transform: scale(1);
@@ -20815,12 +20816,12 @@ li.mob-button {
 /*------------------------------------------------------------------
 [Slider Revolution]
 */
-/* line 1605, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1606, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .tp-loader.spinner0 {
   /* background: image-url("preloader.gif") no-repeat center center; */
 }
 
-/* line 1609, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1610, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .slider-revolution i::before {
   color: #fff;
   font-size: 60px;
@@ -20828,35 +20829,35 @@ li.mob-button {
   margin: 0;
 }
 
-/* line 1615, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1616, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .tparrows.preview1:after {
   background: transparent !important;
 }
 
-/* line 1618, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1619, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .tparrows.preview1:hover:after {
   color: #E84855;
 }
 
-/* line 1621, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1622, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .hades.tparrows {
   background: none;
 }
 
-/* line 1624, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1625, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .hades.tparrows:before {
   color: #fff !important;
   opacity: .7;
   font-size: 24px;
 }
 
-/* line 1629, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1630, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .hades.tparrows:hover:before {
   opacity: 1;
   background: none;
 }
 
-/* line 1633, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1634, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .tp-bullets .tp-bullet {
   width: 12px;
   height: 12px;
@@ -20864,30 +20865,30 @@ li.mob-button {
   background-color: rgba(167, 167, 167, 0.6);
 }
 
-/* line 1638, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1639, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .tp-bullets .selected {
   border-color: #fff !important;
   background-color: #fff !important;
 }
 
-/* line 1642, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1643, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .tp-caption a {
   margin: 0;
 }
 
-/* line 1645, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1646, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .cap-title {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
 
-/* line 1649, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1650, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .cap-subtitle {
   font-size: 28px;
   margin-top: 5px;
 }
 
-/* line 1653, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1654, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .cap-sub-subtitle {
   font-size: 12px;
   font-weight: 300;
@@ -20896,17 +20897,17 @@ li.mob-button {
   letter-spacing: 5px;
 }
 
-/* line 1660, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1661, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .cap-title {
   color: #f5f5f5;
 }
 
-/* line 1663, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1664, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .cap-subtitle {
   color: #f5f5f5;
 }
 
-/* line 1666, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1667, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .cap-sub-subtitle {
   color: #f5f5f5;
 }
@@ -20914,18 +20915,18 @@ li.mob-button {
 /*------------------------------------------------------------------
 [8. Page Content]
 */
-/* line 1672, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1673, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .progressbar {
   display: inline-block;
   margin: 25px;
 }
 
-/* line 1675, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1676, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .progressbar p {
   line-height: 18px;
 }
 
-/* line 1677, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1678, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .circle {
   width: 100%;
   margin: 0 auto;
@@ -20935,17 +20936,17 @@ li.mob-button {
   text-align: center;
 }
 
-/* line 1684, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1685, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .circle h4 {
   margin: 32px 0 24px 0;
 }
 
-/* line 1686, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1687, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .circle canvas {
   vertical-align: middle;
 }
 
-/* line 1688, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1689, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .circle div {
   position: absolute;
   font-family: "Georgia", serif;
@@ -20957,64 +20958,64 @@ li.mob-button {
   font-size: 24px;
 }
 
-/* line 1697, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1698, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .circle strong i {
   font-style: normal;
   font-size: 0.6em;
   font-weight: normal;
 }
 
-/* line 1701, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1702, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .circle span {
   display: block;
   color: #aaa;
   margin-top: 12px;
 }
 
-/* line 1705, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1706, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #progress .dark .circle > div {
   color: #f5f5f5;
 }
 
 /* Features */
-/* line 1709, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1710, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .features-block a {
   color: #a7a7a7;
 }
 
-/* line 1711, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1712, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .features-block a, .features-block a:hover, .features-block a:focus {
   text-decoration: none;
 }
 
 /* Photocard */
-/* line 1715, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1716, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .column-half {
   width: 50%;
 }
 
-/* line 1717, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1718, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .column-float-right {
   float: right;
 }
 
-/* line 1719, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1720, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .column-float-left {
   float: left;
 }
 
-/* line 1721, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1722, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-wrap {
   position: relative;
 }
 
-/* line 1723, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1724, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocardvideo-fallback-image {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 1726, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1727, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-image-wrap.column-float-left {
   height: 100%;
   left: 0;
@@ -21024,7 +21025,7 @@ li.mob-button {
   overflow: hidden;
 }
 
-/* line 1733, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1734, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-image-wrap.column-float-right {
   height: 100%;
   right: 0;
@@ -21034,19 +21035,19 @@ li.mob-button {
   overflow: hidden;
 }
 
-/* line 1740, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1741, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-image-wrap,
 .photocard-block .photocard-image-wrap img {
   line-height: 0;
 }
 
-/* line 1743, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1744, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-image-wrap video {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 1746, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1747, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-image-container {
   background-position: center center;
   background-repeat: no-repeat;
@@ -21061,114 +21062,114 @@ li.mob-button {
   transition: all 1.3s;
 }
 
-/* line 1758, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1759, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-contents-inner {
   padding: 120px 120px 150px 120px;
 }
 
-/* line 1760, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1761, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .theme-boxed .photocard-contents-inner {
   padding: 60px 120px 10px;
 }
 
-/* line 1762, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1763, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .image-set-bottom .photocard-contents-inner {
   padding: 80px 25% 50px;
 }
 
-/* line 1764, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1765, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .image-set-top .photocard-contents-inner {
   padding: 80px 25%;
 }
 
-/* line 1766, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1767, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-wrap .fullwidth-image {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 1769, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1770, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .text-align-center {
   text-align: center;
 }
 
-/* line 1771, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1772, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .text-align-right {
   text-align: right;
 }
 
-/* line 1773, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1774, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .text-align-left {
   text-align: left;
 }
 
-/* line 1775, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1776, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-content-wrap.bright .heading-block h2 {
   color: #fff;
   letter-spacing: 0;
 }
 
-/* line 1778, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1779, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-content-wrap.bright .heading-block h3 {
   color: #fff;
   color: rgba(255, 255, 255, 0.3);
 }
 
-/* line 1781, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1782, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-content-wrap.bright .photocard-contents {
   color: #fff;
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* line 1784, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1785, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-content-wrap.dark .heading-block h2 {
   color: "Raleway", sans-serif;
   letter-spacing: 0;
 }
 
-/* line 1787, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1788, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-content-wrap.dark .heading-block h3 {
   color: "Raleway", sans-serif;
   color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 1790, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1791, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .photocard-block .photocard-content-wrap.dark .photocard-contents {
   color: "Raleway", sans-serif;
   color: rgba(0, 0, 0, 0.6);
 }
 
 /* Articles */
-/* line 1795, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1796, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .author-userpic {
   display: inline-block;
 }
 
 /* Portfolio Block */
-/* line 1799, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1800, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-hp .mag-content {
   margin: 0 auto;
   max-width: 1170px;
 }
 
 /* Isotope Portfolio */
-/* line 1804, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1805, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .grid {
   padding: 0;
 }
 
-/* line 1806, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1807, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .grid .row {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* line 1809, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1810, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .grid .row .grid-item {
   border: none;
 }
 
-/* line 1812, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1813, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .grid {
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
@@ -21178,12 +21179,12 @@ li.mob-button {
 }
 
 /* Counts Block */
-/* line 1820, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1821, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts {
   text-align: center;
 }
 
-/* line 1822, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1823, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts i::before,
 .counts .count, .counts .digit, .counts .count-text {
   transition: all 0.35s ease-in-out;
@@ -21194,32 +21195,32 @@ li.mob-button {
   transition-delay: .1s;
 }
 
-/* line 1830, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1831, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container {
   text-align: center;
 }
 
-/* line 1832, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1833, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count-icon {
   margin: 0;
   padding: 0;
   font-size: 25px;
 }
 
-/* line 1836, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1837, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count-icon i::before {
   color: #737373;
   font-size: 40px;
   margin: 0;
 }
 
-/* line 1840, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1841, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count {
   text-align: center;
   display: inline-block;
 }
 
-/* line 1843, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1844, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count .digit {
   color: #303030;
   font-size: 42px;
@@ -21228,7 +21229,7 @@ li.mob-button {
   padding: 0;
 }
 
-/* line 1849, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1850, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count .count-text {
   color: #303030;
   margin-top: 8px;
@@ -21237,39 +21238,39 @@ li.mob-button {
   letter-spacing: 3px;
 }
 
-/* line 1855, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1856, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count:hover {
   color: #E84855;
   cursor: pointer;
 }
 
-/* line 1858, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1859, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count:hover i::before {
   color: #E84855;
 }
 
-/* line 1860, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1861, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .counts .count-container .count:hover .digit, .counts .count-container .count:hover .count-text {
   color: #E84855;
 }
 
-/* line 1863, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1864, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .count-container.dark .count-icon i::before {
   color: #eaeaea;
 }
 
-/* line 1865, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1866, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .count-container.dark .count .digit {
   color: #eaeaea;
 }
 
-/* line 1867, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1868, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .count-container.dark .count .count-text {
   color: #eaeaea;
 }
 
 /* Details */
-/* line 1871, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1872, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .m-details .m-details-ico i::before {
   font-size: 32px;
   color: #E84855;
@@ -21277,7 +21278,7 @@ li.mob-button {
 }
 
 /* Customer's Review Mainpage Block */
-/* line 1877, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1878, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .customer-review .review-container {
   width: 80%;
   text-align: center;
@@ -21285,26 +21286,26 @@ li.mob-button {
   vertical-align: middle;
 }
 
-/* line 1882, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1883, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .customer-review .review-container .review-author {
   display: inline-block;
   text-align: center;
   margin-bottom: 40px;
 }
 
-/* line 1886, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1887, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .customer-review .review-container .review-author span {
   color: #666;
 }
 
-/* line 1888, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1889, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .customer-review .review-container .review-content {
   display: inline-block;
   text-align: left;
 }
 
 /* Services block */
-/* line 1893, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1894, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal, .rd-medal-skin, .rd-medal-light, .rd-medal-dark, .rd-medal-medium, .rd-medal-trans, .rd-medal-outline {
   text-align: center;
   height: 100px;
@@ -21317,7 +21318,7 @@ li.mob-button {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 1903, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1904, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal i::before, .rd-medal-skin i::before, .rd-medal-light i::before, .rd-medal-dark i::before, .rd-medal-medium i::before, .rd-medal-trans i::before, .rd-medal-outline i::before {
   font-size: 36px;
   line-height: 100px;
@@ -21329,166 +21330,166 @@ li.mob-button {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 1913, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1914, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal {
   background: #f5f5f5;
 }
 
-/* line 1915, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1916, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal i::before {
   color: #5d5d5d;
 }
 
-/* line 1917, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1918, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal:hover {
   background: #E84855;
 }
 
-/* line 1919, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1920, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 1922, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1923, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-trans {
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* line 1924, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1925, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-trans i::before {
   color: #fff;
 }
 
-/* line 1926, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1927, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-trans:hover {
   background: #E84855;
 }
 
-/* line 1928, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1929, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-trans:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 1931, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1932, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-skin {
   background: #fff;
 }
 
-/* line 1933, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1934, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-skin i::before {
   color: #43a5e6;
 }
 
-/* line 1935, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1936, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-skin:hover {
   background: #E84855;
 }
 
-/* line 1937, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1938, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-skin:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 1940, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1941, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-light {
   background: #eaeaea;
 }
 
-/* line 1942, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1943, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-light i::before {
   color: #5d5d5d;
 }
 
-/* line 1944, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1945, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-light:hover {
   background: #E84855;
 }
 
-/* line 1946, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1947, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-light:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 1949, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1950, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-dark {
   background: #1b1b1b;
 }
 
-/* line 1951, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1952, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-dark i::before {
   color: #a7a7a7;
 }
 
-/* line 1953, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1954, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-dark:hover {
   background: #E84855;
 }
 
-/* line 1955, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1956, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-dark:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 1958, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1959, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-medium {
   background: #c1c1c1;
 }
 
-/* line 1960, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1961, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-medium i::before {
   color: #5d5d5d;
 }
 
-/* line 1962, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1963, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-medium:hover {
   background: #E84855;
 }
 
-/* line 1964, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1965, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-medium:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 1967, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1968, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-outline {
   border: 1px solid #a7a7a7;
 }
 
-/* line 1969, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1970, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-outline i::before {
   color: #a7a7a7;
 }
 
-/* line 1971, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1972, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-outline:hover {
   border-color: #E84855;
   background: #E84855;
 }
 
-/* line 1974, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1975, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .rd-medal-outline:hover i::before {
   color: #fff;
 }
 
 /* Brands Block */
-/* line 1978, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1979, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-filter ul {
   list-style: none;
   padding: 0;
 }
 
-/* line 1981, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1982, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-filter ul li {
   display: inline-block;
   margin-right: 32px;
 }
 
-/* line 1984, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1985, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-filter ul li:last-child {
   margin-right: none;
 }
 
-/* line 1986, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1987, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-filter ul li a {
   font-family: "Georgia", serif;
   font-size: 18px;
@@ -21496,29 +21497,29 @@ li.mob-button {
   color: #8e8e8e;
 }
 
-/* line 1991, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1992, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-filter ul li a:hover {
   text-decoration: underline;
   color: #f5f5f5;
 }
 
-/* line 1994, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1995, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-filter ul li a:active {
   color: #f5f5f5;
 }
 
-/* line 1996, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1997, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-item {
   text-align: center;
 }
 
-/* line 1998, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 1999, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-item h3 {
   font-family: "Georgia", serif;
   font-style: oblique;
 }
 
-/* line 2001, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2002, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-item .logos-pic-01 {
   width: 140px;
   height: 150px;
@@ -21526,7 +21527,7 @@ li.mob-button {
   background: url("../images/hp-portf-01.png") center no-repeat;
 }
 
-/* line 2006, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2007, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-item .logos-pic-02 {
   width: 140px;
   height: 150px;
@@ -21534,7 +21535,7 @@ li.mob-button {
   background: url("../images/hp-portf-02.png") center no-repeat;
 }
 
-/* line 2011, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2012, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-item .logos-pic-03 {
   width: 140px;
   height: 150px;
@@ -21542,7 +21543,7 @@ li.mob-button {
   background: url("../images/hp-portf-03.png") center no-repeat;
 }
 
-/* line 2016, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2017, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .logos-item .logos-pic-04 {
   width: 140px;
   height: 150px;
@@ -21550,33 +21551,33 @@ li.mob-button {
   background: url("../images/hp-portf-04.png") center no-repeat;
 }
 
-/* line 2021, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2022, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .logos .btn-logos {
   min-width: 180px;
 }
 
 /* Feedback Block */
-/* line 2025, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2026, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .wpcf7-form span.wpcf7-form-control-wrap {
   position: relative;
 }
 
-/* line 2027, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2028, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .wpcf7-form .left-field {
   float: left;
 }
 
-/* line 2029, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2030, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .wpcf7-form .right-field {
   float: right;
 }
 
-/* line 2031, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2032, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .wpcf7-form .left-field, .feedback .wpcf7-form .right-field {
   width: calc(50% - 5px);
 }
 
-/* line 2033, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2034, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .wpcf7-form input[type="text"], .feedback .wpcf7-form input[type="email"], .feedback .wpcf7-form input[type="password"], .feedback .wpcf7-form input[type="search"], .feedback .wpcf7-form input[type="url"], .feedback .wpcf7-form textarea {
   padding: 12px 15px;
   border: 0;
@@ -21599,12 +21600,12 @@ li.mob-button {
   background-color: #fff !important;
 }
 
-/* line 2053, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2054, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .wpcf7-form input[type="submit"] {
   width: auto;
 }
 
-/* line 2055, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2056, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .feedback .dark .wpcf7-form input[type="text"], .feedback .dark .wpcf7-form input[type="email"], .feedback .dark .wpcf7-form input[type="password"], .feedback .dark .wpcf7-form input[type="search"], .feedback .dark .wpcf7-form input[type="url"], .feedback .dark .wpcf7-form textarea {
   border: 1px solid #a7a7a7;
   background-color: transparent !important;
@@ -21612,12 +21613,12 @@ li.mob-button {
 }
 
 /* Portfolio */
-/* line 2061, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2062, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-details {
   padding: 14px;
 }
 
-/* line 2064, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2065, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption {
   width: 100%;
   background: #f2f2f2;
@@ -21626,91 +21627,91 @@ li.mob-button {
   font-size: 12px;
 }
 
-/* line 2070, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2071, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption p {
   margin: 0;
   line-height: 18px;
 }
 
-/* line 2073, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2074, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption .portfolio-date {
   font-size: 11px;
   line-height: 20px;
   color: #999;
 }
 
-/* line 2077, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2078, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption .portfolio-date a {
   color: #999;
 }
 
-/* line 2079, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2080, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption .portfolio-date a:hover {
   color: #E84855;
   text-decoration: none;
 }
 
-/* line 2082, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2083, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption .portfolio-date span {
   position: relative;
   font-size: 14px;
   margin-right: 2px;
 }
 
-/* line 2086, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2087, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption .portfolio-date p {
   display: inline-block;
   margin-right: 10px;
 }
 
-/* line 2089, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2090, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption a {
   color: #303030;
 }
 
-/* line 2091, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2092, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption h4 {
   margin: 10px 0 5px 0;
 }
 
-/* line 2093, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2094, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption h4 a {
   color: #5d5d5d;
 }
 
-/* line 2095, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2096, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption h4 a:hover, .portfolio-caption h4 a:active, .portfolio-caption h4 a:focus {
   color: #E84855;
   text-decoration: none;
 }
 
-/* line 2098, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2099, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-caption h4 a:visited {
   text-decoration: none;
 }
 
-/* line 2101, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2102, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-item-data ul {
   padding-left: 0;
 }
 
-/* line 2103, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2104, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .portfolio-item-data ul li span {
   font-weight: 600;
 }
 
-/* line 2106, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2107, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .port-filter ul {
   list-style: none;
   padding: 0;
 }
 
-/* line 2109, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2110, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .port-filter ul li {
   display: inline-block;
 }
 
-/* line 2111, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2112, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .port-filter ul li a {
   position: relative;
   padding: 6px 18px;
@@ -21727,7 +21728,7 @@ li.mob-button {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2125, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2126, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .port-filter ul li a:hover, .port-filter ul li a:focus {
   text-decoration: none;
   background: #E84855;
@@ -21735,13 +21736,13 @@ li.mob-button {
   border-color: #E84855;
 }
 
-/* line 2131, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2132, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .port-filter ul li a {
   border-color: #c1c1c1;
   color: #c1c1c1;
 }
 
-/* line 2134, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2135, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .port-filter ul li a:hover, .dark .port-filter ul li a:focus {
   text-decoration: none;
   background: #E84855;
@@ -21750,7 +21751,7 @@ li.mob-button {
 }
 
 /* Shop */
-/* line 2141, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2142, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item {
   background: #f5f5f5;
   min-height: 300px;
@@ -21760,7 +21761,7 @@ li.mob-button {
   margin-bottom: 60px;
 }
 
-/* line 2148, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2149, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-photo {
   background: #fff;
   min-height: 200px;
@@ -21769,17 +21770,17 @@ li.mob-button {
   opacity: 1;
 }
 
-/* line 2154, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2155, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-photo img {
   margin: 0 auto;
 }
 
-/* line 2156, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2157, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs {
   padding: 9px 16px 0 16px;
 }
 
-/* line 2158, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2159, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs .item-oldprice {
   font-size: 14px;
   line-height: 18px;
@@ -21787,100 +21788,100 @@ li.mob-button {
   text-decoration: line-through;
 }
 
-/* line 2163, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2164, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs .item-newprice {
   font-size: 30px;
   line-height: 30px;
   color: #333;
 }
 
-/* line 2167, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2168, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs .add-to-cart {
   background: #fff;
   padding: 14px;
 }
 
-/* line 2170, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2171, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs .add-to-cart i {
   color: #c1c1c1;
   font-size: 18px;
   margin-right: 4px;
 }
 
-/* line 2174, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2175, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs .add-to-cart a {
   text-transform: uppercase;
   font-size: 14px;
 }
 
-/* line 2177, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2178, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-attrs .add-to-cart a:hover, .shop-item .item-attrs .add-to-cart a:hover i {
   color: #E84855;
 }
 
-/* line 2179, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2180, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-content {
   padding: 24px;
 }
 
-/* line 2181, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2182, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-content p {
   color: #737373;
 }
 
-/* line 2183, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2184, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item .item-content h4 {
   letter-spacing: 1px;
 }
 
-/* line 2185, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2186, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item:hover {
   border-color: #5d5d5d;
 }
 
-/* line 2187, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2188, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item:hover .item-photo {
   opacity: 1;
 }
 
-/* line 2189, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2190, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item:hover .add-to-cart i, .shop-item:hover .add-to-cart a {
   color: #E84855;
   text-decoration: none;
 }
 
-/* line 2193, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2194, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .shop-item {
   border: none;
   background: #252525;
 }
 
-/* line 2196, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2197, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .shop-item:hover {
   border: none;
 }
 
-/* line 2198, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2199, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .shop-item .item-attrs .item-newprice {
   color: #eaeaea;
 }
 
-/* line 2200, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2201, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .shop-item .item-attrs .add-to-cart {
   background: #303030;
 }
 
-/* line 2202, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2203, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .shop-item .item-content p {
   color: #c1c1c1;
 }
 
-/* line 2204, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2205, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .shop-item .item-content h4 {
   color: #f5f5f5;
 }
 
-/* line 2207, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2208, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item,
 .item-photo,
 .item-content p,
@@ -21895,7 +21896,7 @@ li.mob-button {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2220, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2221, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .onsale {
   top: -60px;
   left: -60px;
@@ -21916,7 +21917,7 @@ li.mob-button {
   transform: rotate(-45deg);
 }
 
-/* line 2239, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2240, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .item-new {
   top: -60px;
   left: -60px;
@@ -21937,12 +21938,12 @@ li.mob-button {
   transform: rotate(-45deg);
 }
 
-/* line 2258, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2259, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-navigation {
   border-top: 1px dotted #5d5d5d;
 }
 
-/* line 2260, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2261, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-navigation ul {
   margin-top: 12px;
   list-style: none;
@@ -21950,18 +21951,18 @@ li.mob-button {
   display: inline-block;
 }
 
-/* line 2265, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2266, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-navigation ul li {
   display: inline-block;
   margin-right: 24px;
 }
 
-/* line 2268, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2269, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-navigation ul li:last-child {
   margin-right: 0;
 }
 
-/* line 2270, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2271, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-navigation ul li a {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
@@ -21969,47 +21970,47 @@ li.mob-button {
   color: #5d5d5d;
 }
 
-/* line 2275, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2276, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-navigation ul li a:hover {
   color: #E84855;
   text-decoration: none;
 }
 
-/* line 2279, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2280, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-description h2 {
   font-weight: 600;
 }
 
-/* line 2281, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2282, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-description h2 span {
   font-weight: 400;
   font-size: 36px;
 }
 
-/* line 2285, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2286, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block {
   border: 3px solid #5d5d5d;
   position: relative;
 }
 
-/* line 2288, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2289, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-price {
   display: inline-block;
   padding: 18px;
   width: 60%;
 }
 
-/* line 2292, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2293, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-price table {
   width: 100%;
 }
 
-/* line 2294, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2295, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-price table tr td {
   padding: 5px 0;
 }
 
-/* line 2296, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2297, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-price .list-price {
   font-size: 18px;
   line-height: 18px;
@@ -22017,14 +22018,14 @@ li.mob-button {
   text-decoration: line-through;
 }
 
-/* line 2301, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2302, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-price .deal-price {
   font-size: 30px;
   line-height: 30px;
   color: #333;
 }
 
-/* line 2305, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2306, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs {
   position: absolute;
   border: 3px solid #5d5d5d;
@@ -22034,7 +22035,7 @@ li.mob-button {
   width: 30%;
 }
 
-/* line 2312, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2313, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs .item-material,
 .shop-item-block .shop-item-attrs .item-quantity,
 .shop-item-block .shop-item-attrs .item-add {
@@ -22043,18 +22044,18 @@ li.mob-button {
   width: 100%;
 }
 
-/* line 2318, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2319, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs .item-quantity {
   border-top: 3px solid #5d5d5d;
 }
 
-/* line 2320, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2321, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs .item-add {
   background: #eaeaea;
   border-top: 3px solid #5d5d5d;
 }
 
-/* line 2323, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2324, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs .item-add a {
   text-transform: uppercase;
   font-size: 14px;
@@ -22062,26 +22063,26 @@ li.mob-button {
   cursor: pointer;
 }
 
-/* line 2328, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2329, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs .item-add a i {
   font-size: 16px;
   color: #5d5d5d;
 }
 
-/* line 2331, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2332, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .shop-item-block .shop-item-attrs .item-add a:hover, .shop-item-block .shop-item-attrs .item-add a:hover a, .shop-item-block .shop-item-attrs .item-add a:hover i {
   color: #E84855;
 }
 
 /* Blog */
-/* line 2335, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2336, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .post-title {
   line-height: 18px;
   letter-spacing: 2px;
   margin-top: 4px;
 }
 
-/* line 2340, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2341, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .post-meta {
   text-transform: uppercase;
   color: #8e8e8e;
@@ -22089,12 +22090,12 @@ li.mob-button {
   margin-bottom: 8px;
 }
 
-/* line 2345, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2346, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .post-meta span {
   margin-right: 3px;
 }
 
-/* line 2348, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2349, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .comment-baloon {
   display: inline-block;
   background: #5d5d5d;
@@ -22109,7 +22110,7 @@ li.mob-button {
 }
 
 /* Pricing Tables */
-/* line 2361, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2362, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-number,
 .pricing,
 .pricing ul li,
@@ -22123,12 +22124,12 @@ li.mob-button {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2373, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2374, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-number {
   color: #c1c1c1;
 }
 
-/* line 2376, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2377, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .pricing {
   padding: 30px 30px 50px 30px;
   min-height: 300px;
@@ -22137,50 +22138,50 @@ li.mob-button {
   font-size: 13px;
 }
 
-/* line 2382, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2383, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .pricing ul {
   text-align: center;
   margin: 24px 0 32px 0;
   padding: 0;
 }
 
-/* line 2386, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2387, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .pricing ul li {
   padding: 6px 0;
   border-top: 1px solid #eaeaea;
 }
 
-/* line 2389, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2390, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .pricing ul li:last-child {
   border-bottom: 1px solid #eaeaea;
 }
 
-/* line 2391, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2392, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .pricing:hover {
   cursor: pointer;
   box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.2);
 }
 
-/* line 2395, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2396, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .plain {
   background: #fff;
   color: #8e8e8e;
 }
 
-/* line 2399, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2400, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-attrs {
   width: 100%;
   height: auto;
 }
 
-/* line 2402, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2403, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-attrs .price-number {
   font-size: 84px;
   line-height: 90px;
   padding-bottom: 24px;
 }
 
-/* line 2406, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2407, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-attrs .price-plan {
   font-size: 14px;
   text-transform: uppercase;
@@ -22188,104 +22189,104 @@ li.mob-button {
   color: #5d5d5d;
 }
 
-/* line 2411, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2412, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-attrs .price-descr {
   color: #5d5d5d;
 }
 
-/* line 2413, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2414, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .price-attrs .price-conclusion {
   font-size: 11px;
 }
 
-/* line 2416, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2417, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal {
   background: #fff;
   color: #303030;
 }
 
-/* line 2419, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2420, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal ul li {
   border-top: 1px solid #eaeaea;
 }
 
-/* line 2421, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2422, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal ul li:last-child {
   border-bottom: 1px solid #eaeaea;
 }
 
-/* line 2423, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2424, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal .price-number {
   color: #8e8e8e;
 }
 
-/* line 2425, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2426, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal .price-plan {
   color: #E84855;
 }
 
-/* line 2427, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2428, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal .price-descr {
   color: #E84855;
 }
 
-/* line 2429, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2430, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .proposal .price-conclusion {
   color: #E84855;
 }
 
-/* line 2432, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2433, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .price-number {
   color: #c1c1c1;
 }
 
-/* line 2434, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2435, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .plain {
   background: #404040;
   border: none;
   color: #f5f5f5;
 }
 
-/* line 2438, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2439, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .proposal {
   background: #4a4a4a;
   border: none;
   color: #eaeaea;
 }
 
-/* line 2442, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2443, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .proposal button {
   border: none;
 }
 
-/* line 2444, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2445, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .pricing:hover {
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.3);
 }
 
-/* line 2446, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2447, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .price-attrs .price-plan {
   color: #eaeaea;
 }
 
-/* line 2448, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2449, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .price-attrs .price-descr {
   color: #eaeaea;
 }
 
-/* line 2450, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2451, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .price-attrs .price-conclusion {
   color: #c1c1c1;
 }
 
-/* line 2452, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2453, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark button {
   color: #eaeaea;
   border-color: #5d5d5d;
 }
 
 /* Team */
-/* line 2457, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2458, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .team-member {
   background: #fff;
   border: 1px solid #eaeaea;
@@ -22297,7 +22298,7 @@ li.mob-button {
   -ms-transition: all 0.3s ease-in-out;
 }
 
-/* line 2466, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2467, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .team-member .team-photo {
   background: #fff;
   min-height: 200px;
@@ -22305,48 +22306,48 @@ li.mob-button {
   padding: 24px 24px 32px 24px;
 }
 
-/* line 2471, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2472, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .team-member .team-attrs {
   padding: 2px 16px 16px 16px;
   color: #303030;
 }
 
-/* line 2474, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2475, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .team-member .team-attrs .team-name {
   font-size: 21px;
 }
 
-/* line 2476, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2477, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .team-member .team-attrs .team-position {
   font-size: 12px;
   letter-spacing: 2px;
   color: #a7a7a7;
 }
 
-/* line 2480, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2481, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .team-member .team-content {
   color: #303030;
   opacity: .8;
   padding: 16px 24px 40px 24px;
 }
 
-/* line 2485, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2486, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .team-member {
   background: #404040;
   border: none;
 }
 
-/* line 2488, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2489, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .team-member .team-photo {
   background: #404040;
 }
 
-/* line 2490, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2491, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .team-member .team-attrs {
   color: #f5f5f5;
 }
 
-/* line 2492, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2493, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .team-member .team-content {
   color: #c1c1c1;
 }
@@ -22354,25 +22355,25 @@ li.mob-button {
 /*------------------------------------------------------------------
 [10. Hover Effects]
 */
-/* line 2498, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2499, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .item-wrap {
   margin-bottom: 30px;
 }
 
-/* line 2501, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2502, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure {
   position: relative;
   overflow: hidden;
   text-align: center;
 }
 
-/* line 2505, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2506, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure img {
   position: relative;
   opacity: 1.0;
 }
 
-/* line 2508, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2509, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure figcaption {
   padding: 1.0em;
   color: #303030;
@@ -22381,7 +22382,7 @@ figure figcaption {
   backface-visibility: hidden;
 }
 
-/* line 2514, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2515, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure figcaption > .fig-description a {
   z-index: 1000;
   text-indent: 200%;
@@ -22389,12 +22390,12 @@ figure figcaption > .fig-description a {
   font-size: 0;
 }
 
-/* line 2519, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2520, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure figcaption:before, figure figcaption:after {
   pointer-events: none;
 }
 
-/* line 2521, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2522, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure figcaption,
 figure figcaption > a {
   position: absolute;
@@ -22404,30 +22405,30 @@ figure figcaption > a {
   height: 100%;
 }
 
-/* line 2528, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2529, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure h3 {
   word-spacing: -0.15em;
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 2531, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2532, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure h3 span {
   font-family: "Montserrat", sans-serif;
 }
 
-/* line 2533, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2534, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure h3, figure p {
   margin: 0;
 }
 
-/* line 2535, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2536, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure p {
   letter-spacing: 1px;
   font-size: 68.5%;
 }
 
 /* Portfolio hover */
-/* line 2540, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2541, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath .popup-call {
   position: absolute;
   top: 30px;
@@ -22441,12 +22442,12 @@ figure.effect-goliath .popup-call {
   -ms-transition: opacity 0.5s ease-in-out;
 }
 
-/* line 2551, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2552, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath .popup-call a:hover, figure.effect-goliath .popup-call a:focus {
   text-decoration: none;
 }
 
-/* line 2553, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2554, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath .popup-call a i {
   color: #5d5d5d;
   transition: color 0.5s ease-in-out;
@@ -22456,18 +22457,18 @@ figure.effect-goliath .popup-call a i {
   -ms-transition: color 0.5s ease-in-out;
 }
 
-/* line 2560, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2561, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath .popup-call a i::before {
   font-size: 40px;
   margin-left: 2px;
 }
 
-/* line 2563, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2564, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath .popup-call a i:hover {
   color: #E84855;
 }
 
-/* line 2565, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2566, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath figcaption {
   position: absolute;
   top: 0;
@@ -22478,7 +22479,7 @@ figure.effect-goliath figcaption {
   font-size: 12px;
 }
 
-/* line 2573, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2574, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath figcaption .fig-description {
   position: absolute;
   left: 40px;
@@ -22486,26 +22487,26 @@ figure.effect-goliath figcaption .fig-description {
   bottom: 30px;
 }
 
-/* line 2578, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2579, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath figcaption a {
   color: #303030;
   font-size: 11px;
   line-height: 20px;
 }
 
-/* line 2582, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2583, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath figcaption span {
   position: relative;
   margin-right: 2px;
 }
 
-/* line 2585, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2586, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath img, figure.effect-goliath h3 {
   -webkit-transition: -webkit-transform 3.5s;
   transition: transform 3.5s;
 }
 
-/* line 2588, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2589, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath img {
   max-width: none;
   width: -webkit-calc(100% + 0px);
@@ -22519,7 +22520,7 @@ figure.effect-goliath img {
   backface-visibility: hidden;
 }
 
-/* line 2599, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2600, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath h3 {
   font-family: "Montserrat", sans-serif;
   color: "Raleway", sans-serif !important;
@@ -22532,7 +22533,7 @@ figure.effect-goliath h3 {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 2609, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2610, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath h3:before {
   position: absolute;
   content: " ";
@@ -22545,7 +22546,7 @@ figure.effect-goliath h3:before {
   transition-delay: .2s;
 }
 
-/* line 2619, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2620, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath p {
   margin-top: 7px;
   color: #303030;
@@ -22559,29 +22560,29 @@ figure.effect-goliath p {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 2630, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2631, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath:hover .popup-call {
   opacity: 1;
 }
 
-/* line 2632, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2633, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath:hover img {
   opacity: 0.8;
   -webkit-transform: translate3d(0, 0, 0) scale(1);
   transform: translate3d(0, 0, 0) scale(1);
 }
 
-/* line 2636, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2637, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath:hover h3 {
   opacity: 1;
 }
 
-/* line 2638, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2639, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath:hover h3:before {
   width: 100%;
 }
 
-/* line 2640, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2641, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-goliath:hover p {
   width: 100%;
   opacity: 1;
@@ -22589,13 +22590,13 @@ figure.effect-goliath:hover p {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 2646, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2647, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .captions:hover img {
   opacity: 1 !important;
 }
 
 /* Team Hover */
-/* line 2650, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2651, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe {
   margin: 0;
   width: 100%;
@@ -22606,18 +22607,18 @@ figure.effect-zoe {
   float: none;
 }
 
-/* line 2658, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2659, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe img {
   display: inline-block;
   opacity: 1;
 }
 
-/* line 2661, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2662, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe p.icon-links {
   margin: 0px;
 }
 
-/* line 2663, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2664, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe p.icon-links a {
   color: #fff;
   -webkit-transition: -webkit-transform 0.35s;
@@ -22626,7 +22627,7 @@ figure.effect-zoe p.icon-links a {
   transform: translate3d(0, 200%, 0);
 }
 
-/* line 2669, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2670, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe p.icon-links a i::before {
   color: #fff;
   font-size: 24px;
@@ -22637,24 +22638,24 @@ figure.effect-zoe p.icon-links a i::before {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 2677, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2678, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe p.icon-links a:hover i::before {
   color: #f5f5f5;
 }
 
-/* line 2679, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2680, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe p.phone-number a {
   color: #fff;
   font-size: 12px;
 }
 
-/* line 2682, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2683, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe p.phone-number a:hover {
   color: #f5f5f5;
   text-decoration: none;
 }
 
-/* line 2685, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2686, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe figcaption {
   top: auto;
   bottom: 0;
@@ -22668,7 +22669,7 @@ figure.effect-zoe figcaption {
   transform: translate3d(0, 100%, 0);
 }
 
-/* line 2697, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2698, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
 figure.effect-zoe:hover p.icon-links a {
@@ -22676,42 +22677,42 @@ figure.effect-zoe:hover p.icon-links a {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 2703, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2704, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 2707, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2708, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe:hover p.icon-links a:nth-child(2) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 2711, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2712, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 figure.effect-zoe:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 
-/* line 2715, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2716, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .grid .row .grid-item {
   border: none;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-/* line 2719, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2720, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap {
   margin-bottom: 10px;
 }
 
-/* line 2721, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2722, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure {
   text-align: left;
 }
 
-/* line 2723, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2724, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure .popup-call {
   position: absolute;
   z-index: 10;
@@ -22724,23 +22725,23 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   -ms-transition: all 0.5s ease-in-out;
 }
 
-/* line 2733, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2734, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure .popup-call a i:before {
   font-size: 38px;
   color: #fff;
 }
 
-/* line 2736, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2737, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure:hover .popup-call {
   opacity: 1;
 }
 
-/* line 2738, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2739, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure p {
   font-size: 13px;
 }
 
-/* line 2740, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2741, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption {
   padding: 24px;
   position: relative;
@@ -22748,35 +22749,35 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   text-transform: none;
 }
 
-/* line 2745, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2746, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption a {
   color: #404040;
 }
 
-/* line 2747, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2748, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption a:hover, #layout-choose .item-wrap figure figcaption a:focus {
   color: #E84855;
   text-decoration: none;
 }
 
-/* line 2750, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2751, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-meta {
   text-transform: uppercase;
   color: #8e8e8e;
   font-size: 11px;
 }
 
-/* line 2754, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2755, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-meta span {
   margin-right: 3px;
 }
 
-/* line 2756, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2757, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-header {
   text-transform: uppercase;
 }
 
-/* line 2758, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2759, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-header h5 {
   font-size: 15px;
   letter-spacing: 2px;
@@ -22786,25 +22787,25 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-bottom: 14px;
 }
 
-/* line 2765, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2766, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-entry {
   margin-bottom: 21px;
 }
 
-/* line 2767, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2768, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-tag {
   color: #8e8e8e;
   text-transform: uppercase;
   font-size: 13px;
 }
 
-/* line 2771, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2772, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-tag span {
   margin-right: 10px;
   letter-spacing: 1px;
 }
 
-/* line 2774, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2775, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-more-link {
   font-size: 11px;
   font-weight: 600;
@@ -22813,7 +22814,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   line-height: 22px;
 }
 
-/* line 2780, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2781, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #layout-choose .item-wrap figure figcaption .post-more-link a i {
   margin-left: 5px;
   transition: all 0.25s ease 0s;
@@ -22825,7 +22826,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /*------------------------------------------------------------------
 [Magmific Popup]
 */
-/* line 2790, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2791, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .mfp-arrow-right:after,
 .mfp-arrow-right .mfp-a {
   position: absolute;
@@ -22845,7 +22846,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transform: rotate(225deg);
 }
 
-/* line 2808, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2809, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .mfp-arrow-left:after,
 .mfp-arrow-left .mfp-a {
   position: absolute;
@@ -22866,7 +22867,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   transform: rotate(45deg);
 }
 
-/* line 2827, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2828, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .mfp-arrow-right:before,
 .mfp-arrow-left:before {
   display: none;
@@ -22875,23 +22876,23 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /*------------------------------------------------------------------
 [Google Map]
 */
-/* line 2834, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2835, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #google-map {
   width: 100%;
 }
 
-/* line 2836, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2837, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #google-map img {
   max-width: none;
 }
 
-/* line 2839, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2840, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .bigmap {
   height: 400px !important;
 }
 
 /* Google map Slide-out */
-/* line 2843, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2844, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #gm-panel {
   width: 100%;
   background: #eeeeee;
@@ -22899,12 +22900,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   bottom: 300px;
 }
 
-/* line 2849, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2850, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 a.gm-toggle-link {
   cursor: pointer;
 }
 
-/* line 2852, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2853, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .gm-toggle {
   margin: 0 auto;
   padding: 24px 0;
@@ -22917,7 +22918,7 @@ a.gm-toggle-link {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2862, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2863, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .gm-toggle i {
   color: #737373;
   font-size: 32px;
@@ -22929,12 +22930,12 @@ a.gm-toggle-link {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2871, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2872, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .gm-toggle:hover {
   background: #c1c1c1;
 }
 
-/* line 2873, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2874, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .gm-toggle:hover i {
   color: #f5f5f5;
 }
@@ -22942,7 +22943,7 @@ a.gm-toggle-link {
 /*------------------------------------------------------------------
 [Footer]
 */
-/* line 2879, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2880, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer {
   min-height: 150px;
   color: #303030;
@@ -22950,41 +22951,41 @@ footer {
   position: relative;
 }
 
-/* line 2884, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2885, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer h3 {
   text-transform: uppercase;
   margin: 0;
 }
 
-/* line 2887, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2888, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer h4 {
   letter-spacing: 1px;
   margin: 6px 0 0 0;
 }
 
-/* line 2890, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2891, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer p {
   margin-bottom: 6px;
 }
 
-/* line 2892, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2893, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer a {
   font-size: 12px;
   text-decoration: underline;
 }
 
-/* line 2895, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2896, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer i {
   color: #737373;
 }
 
-/* line 2897, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2898, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .footer-addr {
   width: 100%;
   margin-bottom: 24px;
 }
 
-/* line 2900, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2901, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .footer-icon {
   width: 10%;
   display: table-cell;
@@ -22992,13 +22993,13 @@ footer .footer-icon {
   font-size: 16px;
 }
 
-/* line 2905, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2906, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .morelink a {
   font-size: 11px !important;
   font-weight: 400;
 }
 
-/* line 2908, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2909, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .morelink a, footer .morelink a i::before {
   color: #404040;
   transition: all 0.35s ease-in-out;
@@ -23008,12 +23009,12 @@ footer .morelink a, footer .morelink a i::before {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2915, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2916, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .morelink a:hover, footer .morelink a:hover i::before, footer .morelink a i::before:hover, footer .morelink a i::before:hover i::before {
   color: #E84855 !important;
 }
 
-/* line 2917, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2918, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .navlinks {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -23021,49 +23022,49 @@ footer .navlinks {
   line-height: 22px;
 }
 
-/* line 2922, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2923, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .navlinks a {
   text-decoration: none;
   font-size: 11px !important;
 }
 
-/* line 2925, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2926, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .dark {
   color: #f5f5f5;
 }
 
-/* line 2927, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2928, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .dark .morelink a, footer .dark .morelink a i::before {
   color: #c1c1c1;
 }
 
-/* line 2929, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2930, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .dark .morelink a:hover, footer .dark .morelink a:hover i::before, footer .dark .morelink a i::before:hover, footer .dark .morelink a i::before:hover i::before {
   color: #E84855 !important;
 }
 
-/* line 2931, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2932, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .dark .navlinks a {
   color: #c1c1c1;
 }
 
-/* line 2933, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2934, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .dark .navlinks a:hover {
   color: #E84855;
 }
 
-/* line 2935, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2936, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 footer .dark .border-left {
   border-color: #8e8e8e;
 }
 
 /* Follow us */
-/* line 2939, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2940, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .follow ul {
   padding: 0px;
 }
 
-/* line 2941, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2942, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .follow ul li {
   list-style: none;
   display: inline-block;
@@ -23071,7 +23072,7 @@ footer .dark .border-left {
   margin-right: 8px;
 }
 
-/* line 2946, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2947, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .follow ul li i, .follow ul li i::before {
   color: #c1c1c1;
   font-size: 24px !important;
@@ -23084,38 +23085,38 @@ footer .dark .border-left {
   -ms-transition: all 0.35s ease-in-out;
 }
 
-/* line 2956, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2957, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .follow ul li a {
   text-decoration: none !important;
 }
 
-/* line 2958, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2959, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .follow ul li a:hover i::before {
   color: #737373;
 }
 
-/* line 2961, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2962, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .follow ul li a i, .dark .follow ul li a i::before {
   color: #c1c1c1;
 }
 
-/* line 2963, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2964, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .dark .follow ul li a:hover i, .dark .follow ul li a:hover i::before {
   color: #a7a7a7;
 }
 
-/* line 2966, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2967, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 .partners {
   opacity: .2;
   margin: 72px 0;
 }
 
-/* line 2970, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2971, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper {
   padding: 64px 0 60px 0;
 }
 
-/* line 2972, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2973, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .copyright {
   display: inline-block !important;
   font-size: 13px;
@@ -23123,39 +23124,39 @@ footer .dark .border-left {
   letter-spacing: 1px;
 }
 
-/* line 2977, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2978, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .copyright p {
   line-height: 12px;
 }
 
-/* line 2979, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2980, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .copyright a {
   font-weight: 700;
   text-decoration: none;
   font-size: 14px;
 }
 
-/* line 2983, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2984, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .copyright a:hover {
   text-decoration: underline;
 }
 
-/* line 2985, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2986, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .copyright {
   color: #737373;
 }
 
-/* line 2987, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2988, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .copyright a {
   color: #303030;
 }
 
-/* line 2989, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2990, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .dark .copyright {
   color: #c1c1c1;
 }
 
-/* line 2991, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+/* line 2992, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
 #copyrights-wrapper .dark .copyright a {
   color: #c1c1c1;
 }
@@ -23164,22 +23165,22 @@ footer .dark .border-left {
 [13. Media Query]
 */
 @media (max-width: 992px) {
-  /* line 2998, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 2999, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .post-date {
     display: none;
   }
 
-  /* line 3001, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3002, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   li.mob-button {
     display: inline-block;
   }
 
-  /* line 3004, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3005, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .menu-wrap {
     display: inline-block;
   }
 
-  /* line 3007, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3008, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .features-slider-wrap .features-slider {
     position: relative;
     left: 0;
@@ -23187,18 +23188,18 @@ footer .dark .border-left {
     margin: 80px 50px 100px 50px;
   }
 
-  /* line 3013, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3014, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .divider-dynamic {
     height: 60px;
   }
 
-  /* line 3016, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3017, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .photocard-block .photocard-image-container {
     position: static;
     min-height: 350px;
   }
 
-  /* line 3019, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3020, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .photocard-block .column-half,
   .photocard-block .photocard-image-wrap.column-float-right,
   .photocard-block .photocard-image-wrap.column-float-left {
@@ -23206,7 +23207,7 @@ footer .dark .border-left {
     float: none;
   }
 
-  /* line 3024, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3025, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .photocard-block .photocard-image-wrap.column-float-right,
   .photocard-block .photocard-image-wrap.column-float-left,
   .photocard-block .photocard-image-wrap,
@@ -23215,90 +23216,90 @@ footer .dark .border-left {
     width: 100%;
   }
 
-  /* line 3030, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3031, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .photocard-block .photocard-contents-inner {
     padding: 60px;
   }
 
-  /* line 3033, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3034, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .overlay-border {
     display: none;
   }
 
-  /* line 3036, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3037, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .team-member {
     margin-bottom: 32px;
   }
 
-  /* line 3039, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3040, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .infoblock {
     margin-bottom: 60px;
   }
 
-  /* line 3042, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3043, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .counts .count-container .count .count-icon {
     font-size: 32px;
   }
 
-  /* line 3045, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3046, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .carousel-inner {
     margin: 0 auto;
     text-align: center;
   }
 
-  /* line 3049, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3050, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   #header-wrapper-mp #site-title,
   #header-wrapper-mp .is-sticky #site-title {
     float: left;
   }
 
-  /* line 3052, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3053, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   #header-wrapper-mp #site-title h1,
   #header-wrapper-mp .is-sticky #site-title h1 {
     font-size: 28px;
     margin-top: 24px;
   }
 
-  /* line 3056, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3057, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   #header-wrapper-mp .sticky-wrapper, #header-wrapper-mp .sticky-header,
   #header-wrapper-mp .is-sticky .sticky-wrapper,
   #header-wrapper-mp .is-sticky .sticky-header {
     height: 80px !important;
   }
 
-  /* line 3061, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3062, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .m-desktop {
     display: none !important;
   }
 
-  /* line 3064, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3065, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .menu-button {
     margin: 9px 0 0 0;
   }
 
-  /* line 3067, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3068, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .shop-item {
     margin-bottom: 60px;
   }
 
-  /* line 3070, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3071, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   figure {
     width: 100%;
     max-width: 100%;
     margin: 0 0 0 0;
   }
 
-  /* line 3075, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3076, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .customer-review .review-container .review-content {
     text-align: center;
   }
 
-  /* line 3078, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3079, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .hp-block .hp-categories-menu {
     text-align: center;
   }
 
-  /* line 3080, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3081, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .hp-block .hp-categories-menu ul {
     text-align: center;
     padding-left: 0px;
@@ -23306,86 +23307,328 @@ footer .dark .border-left {
     width: 100%;
   }
 
-  /* line 3085, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3086, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .hp-block .hp-categories-menu ul li {
     width: 100%;
   }
 }
 @media (max-width: 768px) {
-  /* line 3088, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3089, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .progress-tracker {
     display: none;
   }
 
-  /* line 3091, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3092, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .title {
     padding-bottom: 0px;
     border-bottom: none;
   }
 
-  /* line 3095, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3096, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .digit {
     font-size: 38px;
     line-height: 24px;
   }
 
-  /* line 3099, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3100, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .counts .count-container .count .count-icon {
     font-size: 24px;
   }
 
-  /* line 3102, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3103, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .partners {
     display: none;
   }
 
-  /* line 3105, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3106, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .port-filter ul li {
     display: block;
     margin-bottom: 12px;
     width: 100%;
   }
 
-  /* line 3109, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3110, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .port-filter ul li a {
     width: 100%;
   }
 }
 @media (max-width: 400px) {
-  /* line 3112, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3113, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   #details .infoblock {
     text-align: center;
   }
 
-  /* line 3114, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3115, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   #details .m-details-ico i::before {
     margin: 0;
   }
 
-  /* line 3117, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3118, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .photocard-block .photocard-image-container {
     min-height: 250px;
   }
 
-  /* line 3120, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3121, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .carousel-inner {
     width: 100%;
   }
 
-  /* line 3123, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3124, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .overlay-divide {
     display: none;
   }
 
-  /* line 3126, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3127, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .count {
     display: block !important;
     margin-bottom: 30px;
   }
 
-  /* line 3130, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
+  /* line 3131, /Users/jomar/Desktop/concert-app/vendor/assets/stylesheets/style.scss */
   .sticky-wrapper {
     height: 80px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+@media (min-device-width: 541px) {
+  /* Big view stuff goes here. */
+  /* line 29, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .phone-message {
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 600px) and (orientation: landscape) {
+  /* css rules */
+}
+@media (max-device-width: 540px) {
+  /* Smaller view stuff goes here. */
+  /* line 40, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .welcome-main {
+    display: none;
+  }
+
+  /* line 44, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .phone-message {
+    width: 100%;
+  }
+
+  /* line 48, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .background-img {
+    background-color: #e85a3c;
+    bottom: 0px;
+    position: fixed;
+  }
+
+  /* line 54, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .sign-up {
+    position: absolute;
+    top: 75%;
+    width: 87%;
+    left: 5%;
+  }
+
+  /* line 62, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .phone-message button {
+    font-size: 10em;
+  }
+
+  /* line 72, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .copy h1 {
+    top: 19%;
+    left: 5%;
+    position: absolute;
+    font-size: 11em;
+    color: #ecf0f1;
+  }
+
+  /* line 80, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .copy p {
+    position: absolute;
+    top: 48%;
+    left: 5%;
+    font-size: 4em;
+    color: #ecf0f1;
+    font-weight: bold;
+  }
+
+  /* line 89, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  body.device-bg {
+    background-color: #e85a3c;
+  }
+
+  /* line 94, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .btn-default.btn-inverse {
+    color: #fff;
+    background-color: #333;
+    border-color: #fff;
+  }
+  /* line 11, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:focus, .btn-default.btn-inverse.focus {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #bfbfbf;
+  }
+  /* line 17, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #e0e0e0;
+  }
+  /* line 22, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:active, .btn-default.btn-inverse.active, .open > .btn-default.btn-inverse.dropdown-toggle {
+    color: #fff;
+    background-color: #1a1a1a;
+    border-color: #e0e0e0;
+  }
+  /* line 29, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:active:hover, .btn-default.btn-inverse:active:focus, .btn-default.btn-inverse:active.focus, .btn-default.btn-inverse.active:hover, .btn-default.btn-inverse.active:focus, .btn-default.btn-inverse.active.focus, .open > .btn-default.btn-inverse.dropdown-toggle:hover, .open > .btn-default.btn-inverse.dropdown-toggle:focus, .open > .btn-default.btn-inverse.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #080808;
+    border-color: #bfbfbf;
+  }
+  /* line 37, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:active, .btn-default.btn-inverse.active, .open > .btn-default.btn-inverse.dropdown-toggle {
+    background-image: none;
+  }
+  /* line 45, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse.disabled:hover, .btn-default.btn-inverse.disabled:focus, .btn-default.btn-inverse.disabled.focus, .btn-default.btn-inverse[disabled]:hover, .btn-default.btn-inverse[disabled]:focus, .btn-default.btn-inverse[disabled].focus, fieldset[disabled] .btn-default.btn-inverse:hover, fieldset[disabled] .btn-default.btn-inverse:focus, fieldset[disabled] .btn-default.btn-inverse.focus {
+    background-color: #333;
+    border-color: #fff;
+  }
+  /* line 53, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse .badge {
+    color: #333;
+    background-color: #fff;
+  }
+  /* line 96, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .btn-default.btn-inverse:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  /* line 11, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover:focus, .btn-default.btn-inverse:hover.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+  }
+  /* line 17, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  /* line 22, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover:active, .btn-default.btn-inverse:hover.active, .open > .btn-default.btn-inverse:hover.dropdown-toggle {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  /* line 29, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover:active:hover, .btn-default.btn-inverse:hover:active:focus, .btn-default.btn-inverse:hover:active.focus, .btn-default.btn-inverse:hover.active:hover, .btn-default.btn-inverse:hover.active:focus, .btn-default.btn-inverse:hover.active.focus, .open > .btn-default.btn-inverse:hover.dropdown-toggle:hover, .open > .btn-default.btn-inverse:hover.dropdown-toggle:focus, .open > .btn-default.btn-inverse:hover.dropdown-toggle.focus {
+    color: #333;
+    background-color: #d4d4d4;
+    border-color: #8c8c8c;
+  }
+  /* line 37, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover:active, .btn-default.btn-inverse:hover.active, .open > .btn-default.btn-inverse:hover.dropdown-toggle {
+    background-image: none;
+  }
+  /* line 45, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover.disabled:hover, .btn-default.btn-inverse:hover.disabled:focus, .btn-default.btn-inverse:hover.disabled.focus, .btn-default.btn-inverse:hover[disabled]:hover, .btn-default.btn-inverse:hover[disabled]:focus, .btn-default.btn-inverse:hover[disabled].focus, fieldset[disabled] .btn-default.btn-inverse:hover:hover, fieldset[disabled] .btn-default.btn-inverse:hover:focus, fieldset[disabled] .btn-default.btn-inverse:hover.focus {
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  /* line 53, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-inverse:hover .badge {
+    color: #fff;
+    background-color: #333;
+  }
+  /* line 100, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .btn-default.btn-transparent {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+  }
+  /* line 11, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:focus, .btn-default.btn-transparent.focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #bfbfbf;
+  }
+  /* line 17, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #e0e0e0;
+  }
+  /* line 22, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:active, .btn-default.btn-transparent.active, .open > .btn-default.btn-transparent.dropdown-toggle {
+    color: #fff;
+    background-color: transparent;
+    border-color: #e0e0e0;
+  }
+  /* line 29, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:active:hover, .btn-default.btn-transparent:active:focus, .btn-default.btn-transparent:active.focus, .btn-default.btn-transparent.active:hover, .btn-default.btn-transparent.active:focus, .btn-default.btn-transparent.active.focus, .open > .btn-default.btn-transparent.dropdown-toggle:hover, .open > .btn-default.btn-transparent.dropdown-toggle:focus, .open > .btn-default.btn-transparent.dropdown-toggle.focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #bfbfbf;
+  }
+  /* line 37, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:active, .btn-default.btn-transparent.active, .open > .btn-default.btn-transparent.dropdown-toggle {
+    background-image: none;
+  }
+  /* line 45, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent.disabled:hover, .btn-default.btn-transparent.disabled:focus, .btn-default.btn-transparent.disabled.focus, .btn-default.btn-transparent[disabled]:hover, .btn-default.btn-transparent[disabled]:focus, .btn-default.btn-transparent[disabled].focus, fieldset[disabled] .btn-default.btn-transparent:hover, fieldset[disabled] .btn-default.btn-transparent:focus, fieldset[disabled] .btn-default.btn-transparent.focus {
+    background-color: transparent;
+    border-color: #fff;
+  }
+  /* line 53, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent .badge {
+    color: transparent;
+    background-color: #fff;
+  }
+  /* line 102, /Users/jomar/Desktop/concert-app/app/assets/stylesheets/responsiveness.scss */
+  .btn-default.btn-transparent:hover {
+    color: #fff;
+    background-color: #bfbfbf;
+    border-color: #fff;
+  }
+  /* line 11, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover:focus, .btn-default.btn-transparent:hover.focus {
+    color: #fff;
+    background-color: #a6a6a6;
+    border-color: #bfbfbf;
+  }
+  /* line 17, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover:hover {
+    color: #fff;
+    background-color: #a6a6a6;
+    border-color: #e0e0e0;
+  }
+  /* line 22, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover:active, .btn-default.btn-transparent:hover.active, .open > .btn-default.btn-transparent:hover.dropdown-toggle {
+    color: #fff;
+    background-color: #a6a6a6;
+    border-color: #e0e0e0;
+  }
+  /* line 29, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover:active:hover, .btn-default.btn-transparent:hover:active:focus, .btn-default.btn-transparent:hover:active.focus, .btn-default.btn-transparent:hover.active:hover, .btn-default.btn-transparent:hover.active:focus, .btn-default.btn-transparent:hover.active.focus, .open > .btn-default.btn-transparent:hover.dropdown-toggle:hover, .open > .btn-default.btn-transparent:hover.dropdown-toggle:focus, .open > .btn-default.btn-transparent:hover.dropdown-toggle.focus {
+    color: #fff;
+    background-color: #949494;
+    border-color: #bfbfbf;
+  }
+  /* line 37, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover:active, .btn-default.btn-transparent:hover.active, .open > .btn-default.btn-transparent:hover.dropdown-toggle {
+    background-image: none;
+  }
+  /* line 45, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover.disabled:hover, .btn-default.btn-transparent:hover.disabled:focus, .btn-default.btn-transparent:hover.disabled.focus, .btn-default.btn-transparent:hover[disabled]:hover, .btn-default.btn-transparent:hover[disabled]:focus, .btn-default.btn-transparent:hover[disabled].focus, fieldset[disabled] .btn-default.btn-transparent:hover:hover, fieldset[disabled] .btn-default.btn-transparent:hover:focus, fieldset[disabled] .btn-default.btn-transparent:hover.focus {
+    background-color: #bfbfbf;
+    border-color: #fff;
+  }
+  /* line 53, /Users/jomar/.rvm/gems/ruby-2.2.3/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-default.btn-transparent:hover .badge {
+    color: #bfbfbf;
+    background-color: #fff;
+  }
+}
