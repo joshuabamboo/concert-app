@@ -16,68 +16,18 @@
                 data-description="">
 
                <!-- MAIN IMAGE -->
-               <img src="<%= image_path "iphone-bg.png" %>"
+               <img src="<%= image_path "index-bubbles.png" %>"
                     alt=""
                     data-bgposition="center center"
                     data-bgfit="cover"
                     data-bgrepeat="no-repeat"
                     data-bgparallax="10"
                     class="rev-slidebg"
-                    data-no-retina>
+                    data-no-retina
+                    style="background-color: #8e44ad;">
                <!-- LAYERS -->
 
-               <!-- BACKGROUND VIDEO LAYER -->
-               <div class="rs-background-video-layer"
-                    data-forcerewind="on"
-                    data-volume="mute"
-                    data-videomp4=""
-                    data-videowidth="100%"
-                    data-videoheight="100%"
-                    data-videocontrols="none"
-                    data-videostartat="00:00"
-                    data-videoendat="00:15"
-                    data-videoloop="loop"
-                    data-forceCover="1"
-                    data-aspectratio="4:3"
-                    data-autoplay="true"
-                    data-autoplayonlyfirsttime="false"
-                    data-nextslideatend="true"
-                       >
-                     <%#= video_tag "party7.mp4", loop: "loop" %>
-                 </div>
-
-
-               <!-- LAYER NR. 2 -->
-               <div class="tp-caption NotGeneric-Icon tp-resizeme rs-parallaxlevel-0"
-                    id="slide-266-layer-8"
-                    data-x="['center','center','center','center']"
-                    data-hoffset="['0','0','0','0']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-voffset="-80"
-                    data-width="none"
-                    data-height="none"
-                    data-whitespace="nowrap"
-                    data-transform_idle="o:1;"
-                    data-style_hover="cursor:default;"
-
-                    data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
-                    data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                    data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                    data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                    data-start="800"
-                    data-splitin="none"
-                    data-splitout="none"
-                    data-responsive_offset="on"
-
-                    style="z-index: 10; white-space: nowrap;">
-                    <i>
-                        <%#= image_tag("spotify-logo-sm.png") %> && Festival Logo
-                    </i>
-
-               </div>
-
                <!-- LAYER NR. 1 -->
-
                <div class="tp-caption cap-title font-accident-one-normal tp-resizeme rs-parallaxlevel-1"
                     data-x="center"
                     data-y="center"
@@ -96,7 +46,7 @@
                     data-responsive_offset=”on”
                     data-fontsize="['72','34','30','20']"
                     data-lineheight="['120','100','90','80']"
-                    style="z-index: 2;">Festival Playlists
+                    style="z-index: 2;">Concert Radar
                </div>
 
                <!-- LAYER NR. 3 -->
@@ -116,9 +66,8 @@
                     data-splitin=”none”
                     data-splitout=”none”
                     data-responsive_offset=”on”
-                    style="z-index: 2;">Curated playlists for your festival experience.
+                    style="z-index: 2;">Local shows based on your music tastes
                </div>
-
 
                <!-- LAYER NR. 4 -->
                <div class="tp-caption Hero-Button rev-btn  rs-parallaxlevel-0"
@@ -131,7 +80,6 @@
                     data-height="none"
                     data-whitespace="nowrap"
                     data-transform_idle="o:1;"
-
                     data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
                     data-transform_out="auto:auto;s:700;"
                     data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
@@ -140,7 +88,6 @@
                     data-splitout="none"
                     data-responsive_offset="on"
                     data-responsive="off"
-
                     style="z-index: 9; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
                     <%= link_to 'Login With Spotify', '/auth/spotify', class: "btn btn-default btn-lg btn-gr" %>
                </div>
@@ -181,4 +128,32 @@
 </div>
 <!-- /Revolution Slider -->
 
+
 <%= render 'learn_more' %>
+
+
+
+<!-- Email Capture Modal -->
+<div id="js--email-modal" class="modal fade" role="dialog">
+ <div class="modal-dialog">
+
+   <div class="modal-content">
+     <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal">&times;</button>
+       <h4 class="modal-title">Confirm or Update Your Email Address</h4>
+     </div>
+     <div class="modal-body">
+       <% if logged_in? %>
+         <%= form_for(current_user) do |f| %>
+           <%= f.text_field :email %>
+           <%= f.submit "Confirm Email", class: "btn" %>
+         <% end %>
+       <% end %>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+     </div>
+   </div>
+
+ </div>
+</div>
