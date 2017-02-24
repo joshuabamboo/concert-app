@@ -1109,8 +1109,7 @@ ul.sf-menu > li, .sf-menu > li > a {
   position: absolute;
   top: 0;
   left: 0;
-  width: auto;
-  height: 100%;
+  width: 100%;
   overflow: hidden; }
 
 #header-wrapper-mp .sticky-header {
@@ -1604,9 +1603,8 @@ li.mob-button {
 [Slider Revolution]
 */
 .tp-loader.spinner0 {
-  /* background: image-url("preloader.gif") no-repeat center center; */
-  }
-
+  // background: image-url("preloader.gif") no-repeat center center;
+}
 .slider-revolution i::before {
   color: #fff;
   font-size: 60px;
