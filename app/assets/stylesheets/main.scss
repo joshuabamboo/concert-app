@@ -1,0 +1,14 @@
+.btn-default {
+  &.btn-inverse {
+    @include button-variant($btn-default-bg, $btn-default-color, $btn-default-bg);
+    &:hover {
+      @include button-variant($btn-default-color, $btn-default-bg, $btn-default-border);
+    }
+  }
+  &.btn-transparent {
+    @include button-variant($btn-default-bg, transparent, $btn-default-bg);
+    &:hover {
+      @include button-variant($btn-default-bg, darken($btn-default-bg, 25%), $btn-default-bg);
+    }
+  }
+}
