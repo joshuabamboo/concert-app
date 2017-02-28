@@ -89,7 +89,7 @@
                     data-responsive_offset="on"
                     data-responsive="off"
                     style="z-index: 9; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">
-                    <%= link_to 'Login With Spotify', '/auth/spotify', class: "btn btn-default btn-lg btn-gr btn-inverse btn-transparent" %>
+                    <%= logged_in? ? (link_to 'Logout', '/logout', class: "btn btn-default btn-lg btn-gr btn-inverse btn-transparent") : (link_to 'Login With Spotify', '/auth/spotify', class: "btn btn-default btn-lg btn-gr btn-inverse btn-transparent") %>
                </div>
 
                <!-- LAYER NR. 5 -->
