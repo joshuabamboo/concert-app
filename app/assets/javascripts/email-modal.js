@@ -10,4 +10,5 @@ $( document ).ready(function() {
 	if (userIsLoggedIn()) {
     showEmailModal();
 	}
+
 });
