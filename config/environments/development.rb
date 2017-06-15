@@ -53,12 +53,13 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    address:              'smtp.gmail.com',
-    port:                 587,
-    domain:               'example.com',
-    user_name:            ENV['EMAIL'],
-    password:             ENV['PW'],
-    authentication:       'plain',
-    enable_starttls_auto: true  }
+  ActionMailer::Base.smtp_settings = {
+    :user_name => ENV['SENDGRID_NAME'],
+    :password => ENV['SENDGRID_PW'],
+    :domain => 'localhost:3000',
+    :address => 'smtp.sendgrid.net',
+    :port => 587,
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
 end
