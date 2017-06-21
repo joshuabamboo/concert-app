@@ -90,7 +90,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
     :user_name => ENV['SENDGRID_NAME'],
-    :password => ENV['SENDGRID_KEY'],
+    :password => ENV['SENDGRID_PW'],
     :domain => 'concert-radar.herokuapp.com',
     :address => 'smtp.sendgrid.net',
     :port => 587,
